@@ -1,0 +1,198 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Account/TestCaseOne.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TheBrowser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/SuccessfulLogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ResultVar&Sequence_1",
+        "UserManagementText&Sequence_1",
+        "DesiredBrowserType&Sequence_1",
+        "AdminSuiteBrowser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/FailedLogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "VPSbrowser&Sequence_1",
+        "UserManagementText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestDataDriven.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ReadDT&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestModules.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BrowerAdminSuite&Sequence_1",
+        "SaleTextExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestGlobalAssets.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AdminSuiteBrowser&Sequence_1",
+        "DesiredASbrowser&Sequence_1",
+        "DesiredVSPURL&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/SuccessfulLogIn-DataDriven.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AdminSuiteBrowser&Sequence_1",
+        "DesiredBrowserType&Sequence_1",
+        "UserManagementText&Sequence_1",
+        "ResultVar&Sequence_1",
+        "ASusername&Sequence_2",
+        "ASpassword&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestLibraries.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ToMsgBox&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/LoginFromLibrary.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DesiredEnvironmentType&Sequence_1",
+        "DesiredBrowserType&Sequence_1",
+        "asPassword&Sequence_1",
+        "asUsername&Sequence_1",
+        "asURL&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Environment",
+        "DesiredBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/SetupAndLoginFromLibrary.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "PasswordUsed&Sequence_1",
+        "UsernameUsed&Sequence_1",
+        "URLUsed&Sequence_1",
+        "AssignBrowser&Sequence_1",
+        "AssignEnvironment&Sequence_1",
+        "DesiredBrowserType&Sequence_1",
+        "BrowserUsed&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser",
+        "Environment"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestSelectors.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestObjectRepository.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestDescriptors-Library.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AssignBrowser&Sequence_2",
+        "AssignEnvironment&Sequence_2",
+        "BrowserUsed&Sequence_2",
+        "URLUsed&Sequence_2",
+        "PasswordUsed&Sequence_2",
+        "UsernameUsed&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser",
+        "Environment"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

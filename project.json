@@ -1,0 +1,204 @@
+{
+  "name": "VPSAutomation",
+  "projectId": "1988e722-0e88-41b0-a7c6-b77e3094fe4e",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.0-preview]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]",
+    "VPSLibrary": "[1.0.20]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.2.0",
+  "projectVersion": "1.0.161485421",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "80f28592-a8f6-48ef-82bc-c2d8bb09e09e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "615d2594-39f0-4abd-b8a5-6ced23874570",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\SuccessfulLogIn.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b9b16bf9-af23-427a-b3fc-b9b862a20d43",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\FailedLogIn.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7e1b9f13-b93b-4c5f-9f3a-86b1076c2125",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Account\\TestCaseOne.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a4bba110-0694-46ed-a007-142db3ff1857",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Account\\TestCaseTwo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b7a384a3-f445-4bc2-a8ac-3db9367f4139",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Account\\TestCaseThree.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e40d4ee7-9909-4531-946c-61268b73b80a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestGetText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "54c6bc8e-5206-455c-b928-5606c5db2b18",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestGlobalAssets.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "74ec8983-2ad1-45d3-837b-639282f4eb89",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestExceptionHandling.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ce91b1f7-aecd-4d05-a3ab-157834d120bd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestModules.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "350cdc29-e281-4525-a1e7-539d86541f3c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestDataDriven.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1b2540a4-96ab-4266-99af-0cd2cd05d011",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\SuccessfulLogIn-DataDriven.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c2c31bc9-7a7b-4dae-9cb7-601168e699b0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestExcel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e08a7e92-33ad-4de9-b3a2-f7709c3a5453",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\TestLibraries.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "51b06cf1-d318-46e9-be38-0528e1f16a77",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\LoginFromLibrary.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4b1c46fa-0a76-4eba-ac3d-2b387f301076",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\SetupAndLoginFromLibrary.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "790c56f2-2c00-4582-87c7-e3447c6acb41",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestObjectRepository.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c268f6d2-b3f6-4f2d-a48b-98309be7e943",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestSelectors.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dc41c9a8-7e1a-4b45-81ec-6c7954308a9f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1a0c3d2c-3611-4b86-a240-5f1c69089293",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestOR2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "408cfa37-90fd-47d3-8d38-97ed12d0dc72",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestDescriptors-Library.xaml"
+      }
+    ],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
