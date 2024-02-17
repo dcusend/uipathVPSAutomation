@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestDescriptors_Library" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:vl="clr-namespace:VPSLibrary.LoginFunctions;assembly=VPSLibrary" xmlns:vn="clr-namespace:VPSLibrary.NavigationFunctions;assembly=VPSLibrary" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestDescriptors_Library" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:vl="clr-namespace:VPSLibrary.LoginFunctions;assembly=VPSLibrary" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="DesiredBrowser" Type="InArgument(x:String)" />
     <x:Property Name="Environment" Type="InArgument(x:String)" />
@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>900,2021</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>900,1817</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestDescriptors_Library_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -46,7 +46,6 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
-      <x:String>VPSLibrary.NavigationFunctions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -101,13 +100,13 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="558,1956" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="558,1752" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="496,1845" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="496,1641" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="AssignBrowser" />
         <Variable x:TypeArguments="x:String" Name="AssignEnvironment" />
@@ -143,9 +142,9 @@
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[URLUsed]" />
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[UsernameUsed]" />
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[PasswordUsed]" />
-      <vl:TestDescriptors DisplayName="Test descriptors" sap:VirtualizedContainerService.HintSize="434,243" sap2010:WorkflowViewState.IdRef="TestDescriptors_1" inBrowserType="[BrowserNameUsed]" inPassword="[PasswordUsed]" inURL="[URLUsed]" inUsername="[UsernameUsed]" />
-      <vn:SelectApplicationLink DisplayName="Select application link" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="SelectApplicationLink_1" inBrowserType="[BrowserNameUsed]" />
-      <vl:LogoutFromAdminSuite DisplayName="Logout from admin suite" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogoutFromAdminSuite_1" inBrowserType="[BrowserNameUsed]" inURL="[URLUsed]" />
+      <vl:TestUseApplicationBrowserActivity DisplayName="Test use application browser activity" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="TestUseApplicationBrowserActivity_1" inBrowserType="[BrowserNameUsed]" />
+      <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
+      <vl:CalledFromTestUseAppBrowser DisplayName="Called from test use app browser" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="CalledFromTestUseAppBrowser_1" inBrowserType="[BrowserNameUsed]" />
     </Sequence>
   </Sequence>
 </Activity>

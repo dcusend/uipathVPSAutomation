@@ -180,12 +180,42 @@
       "Path": "Test Cases/AdminSuite/Virtual Terminal/TestDescriptors-Library.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "BrowserNameUsed&Sequence_2",
         "AssignBrowser&Sequence_2",
         "AssignEnvironment&Sequence_2",
         "BrowserUsed&Sequence_2",
         "URLUsed&Sequence_2",
         "PasswordUsed&Sequence_2",
         "UsernameUsed&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DesiredBrowser",
+        "Environment"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/TestCaseForBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TwadaBrowser&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestLibraryOR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AssignBrowser&Sequence_2",
+        "AssignEnvironment&Sequence_2",
+        "BrowserUsed&Sequence_2",
+        "URLUsed&Sequence_2",
+        "PasswordUsed&Sequence_2",
+        "UsernameUsed&Sequence_2",
+        "BrowserNameUsed&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
         "DesiredBrowser",
