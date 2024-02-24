@@ -180,6 +180,9 @@
       "Path": "Test Cases/AdminSuite/Virtual Terminal/TestDescriptors-Library.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "resTranxSuccess&Sequence_2",
+        "resTranxType&Sequence_2",
+        "AppName&Sequence_1",
         "BrowserNameUsed&Sequence_2",
         "AssignBrowser&Sequence_2",
         "AssignEnvironment&Sequence_2",
@@ -221,6 +224,30 @@
         "DesiredBrowser",
         "Environment"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/Rest/BillLookup-Demo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "varJasonObject&Sequence_1",
+        "VarJasonString&Sequence_1",
+        "varBody&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AdminSuite/Virtual Terminal/TestExcelAccountNumbers.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDateTime&Sequence_1",
+        "AcNumber&Sequence_4",
+        "Name&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

@@ -8,15 +8,16 @@
     "UiPath.GSuite.Activities": "[2.4.3]",
     "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
     "UiPath.System.Activities": "[23.12.0-preview]",
-    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.Testing.Activities": "[23.10.1]",
     "UiPath.UIAutomation.Activities": "[23.10.8]",
-    "VPSLibrary": "[1.0.49]"
+    "UiPath.WebAPI.Activities": "[1.18.0]",
+    "VPSLibrary": "[1.0.57]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.2.0",
-  "projectVersion": "1.0.161905204",
+  "projectVersion": "1.0.162442884",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -205,6 +206,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestLibraryOR.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1628eb66-1b2e-4300-8ed9-b6fd57983a3a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestExcelAccountNumbers.xaml"
       }
     ],
     "modernBehavior": false,

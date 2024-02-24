@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net8.0-windows7.0": {
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -18,6 +18,22 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "AvalonEdit/6.1.3.50": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       },
       "Azure.Core/1.18.0": {
         "type": "package",
@@ -743,33 +759,40 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.6": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Extensions.Logging/3.1.6": {
@@ -1731,6 +1754,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/106.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
             "related": ".xml"
           }
         }
@@ -4372,9 +4408,11 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.CodedWorkflows/23.10.2": {
+      "UiPath.CodedWorkflows/23.10.4": {
         "type": "package",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
           "System.ValueTuple": "4.5.0"
@@ -5248,7 +5286,7 @@
           "lib/netstandard2.0/TelemetryClient.dll": {}
         }
       },
-      "UiPath.Testing.Activities/23.10.0": {
+      "UiPath.Testing.Activities/23.10.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -5258,7 +5296,7 @@
           "System.IO.Abstractions": "3.0.10",
           "System.Runtime.Caching": "5.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4",
-          "UiPath.CodedWorkflows": "23.10.0",
+          "UiPath.CodedWorkflows": "23.10.4",
           "UiPath.Platform": "23.4.0",
           "UiPath.Telemetry.Client": "1.5.3"
         },
@@ -5823,6 +5861,116 @@
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
       },
+      "UiPath.WebAPI.Activities/1.18.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.1.3.50",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "23.4.1",
+          "UiPath.WebAPI.Runtime": "1.18.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.RulesLibrary.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zu"
+          }
+        }
+      },
+      "UiPath.WebAPI.Runtime/1.18.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "23.4.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Web.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Web.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Web.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.resources.dll": {
+            "locale": "zu"
+          }
+        }
+      },
       "VPS-OR2.Descriptors/1.0.4": {
         "type": "package",
         "dependencies": {
@@ -5836,32 +5984,35 @@
           }
         }
       },
-      "VPSLibrary/1.0.49": {
+      "VPSLibrary/1.0.57": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities": "23.12.0-preview",
+          "UiPath.System.Activities": "23.10.5",
           "UiPath.UIAutomation.Activities": "23.10.8",
           "VPS-OR2.Descriptors": "1.0.4"
         },
         "compile": {
-          "lib/net6.0-windows7.0/_._": {}
+          "lib/net8.0-windows7.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_28626239.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_33771145.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_35170261.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_37325198.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_38259169.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_38270693.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_40083022.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_41832620.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_43859999.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_49587241.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_5320849.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_53285896.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_57779387.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_9456588.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -5872,7 +6023,7 @@
         }
       }
     },
-    "net6.0-windows7.0/win10-x64": {
+    "net8.0-windows7.0/win-x64": {
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -5889,6 +6040,22 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "AvalonEdit/6.1.3.50": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       },
       "Azure.Core/1.18.0": {
         "type": "package",
@@ -6614,33 +6781,40 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.6": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Extensions.Logging/3.1.6": {
@@ -6880,14 +7054,7 @@
         "type": "package"
       },
       "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {},
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/_._": {}
-        }
+        "type": "package"
       },
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
@@ -7451,6 +7618,19 @@
           }
         }
       },
+      "RestSharp/106.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7653,8 +7833,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7-x64.runtime.native.System.IO.Compression": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -7889,21 +8068,6 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll": {}
-        }
-      },
-      "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.0": {
-        "type": "package",
-        "native": {
-          "runtimes/win7-x64/native/_._": {}
-        }
-      },
-      "runtime.win7.System.Private.Uri/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard/_._": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
       "SharpZipLib/1.3.3": {
@@ -8990,8 +9154,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7.System.Private.Uri": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -10079,9 +10242,11 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.CodedWorkflows/23.10.2": {
+      "UiPath.CodedWorkflows/23.10.4": {
         "type": "package",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
           "System.ValueTuple": "4.5.0"
@@ -10955,7 +11120,7 @@
           "lib/netstandard2.0/TelemetryClient.dll": {}
         }
       },
-      "UiPath.Testing.Activities/23.10.0": {
+      "UiPath.Testing.Activities/23.10.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -10965,7 +11130,7 @@
           "System.IO.Abstractions": "3.0.10",
           "System.Runtime.Caching": "5.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4",
-          "UiPath.CodedWorkflows": "23.10.0",
+          "UiPath.CodedWorkflows": "23.10.4",
           "UiPath.Platform": "23.4.0",
           "UiPath.Telemetry.Client": "1.5.3"
         },
@@ -11530,6 +11695,116 @@
           "lib/net6.0-windows7.0/UiPath.Vision.dll": {}
         }
       },
+      "UiPath.WebAPI.Activities/1.18.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.1.3.50",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "23.4.1",
+          "UiPath.WebAPI.Runtime": "1.18.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.RulesLibrary.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zu"
+          }
+        }
+      },
+      "UiPath.WebAPI.Runtime/1.18.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "23.4.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Web.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Web.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Web.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Web.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.resources.dll": {
+            "locale": "zu"
+          }
+        }
+      },
       "VPS-OR2.Descriptors/1.0.4": {
         "type": "package",
         "dependencies": {
@@ -11543,32 +11818,35 @@
           }
         }
       },
-      "VPSLibrary/1.0.49": {
+      "VPSLibrary/1.0.57": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities": "23.12.0-preview",
+          "UiPath.System.Activities": "23.10.5",
           "UiPath.UIAutomation.Activities": "23.10.8",
           "VPS-OR2.Descriptors": "1.0.4"
         },
         "compile": {
-          "lib/net6.0-windows7.0/_._": {}
+          "lib/net8.0-windows7.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_28626239.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_33771145.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_35170261.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_37325198.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_38259169.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_38270693.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_40083022.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_41832620.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_43859999.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_49587241.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_5320849.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_53285896.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_57779387.dll": {},
-          "lib/net6.0-windows7.0/VPSLibrary_Expressions_9456588.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -11596,6 +11874,28 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AvalonEdit/6.1.3.50": {
+      "sha512": "PtR4iPGu965DMSaDs0RyGi1LK94kUwWIZUGx1Jpg5vJr52KKQPR+KMwIthcpgoQR6xJWKM2MkZ41setJXuzMWA==",
+      "type": "package",
+      "path": "avalonedit/6.1.3.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonedit.6.1.3.50.nupkg.sha512",
+        "avalonedit.nuspec",
+        "images/AvalonEditNuGetPackageIcon.png",
+        "lib/net40/ICSharpCode.AvalonEdit.dll",
+        "lib/net40/ICSharpCode.AvalonEdit.xml",
+        "lib/net45/ICSharpCode.AvalonEdit.dll",
+        "lib/net45/ICSharpCode.AvalonEdit.xml",
+        "lib/net5.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net5.0-windows7.0/ICSharpCode.AvalonEdit.xml",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.xml",
+        "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.dll",
+        "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.xml"
       ]
     },
     "Azure.Core/1.18.0": {
@@ -12728,38 +13028,54 @@
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.6": {
-      "sha512": "YMJWflBmBc0PbqYvt3m4ueSCgV51JLfqHhyunoVq0rBs9V4sVQw5JsPTB17bIrlHFJs2pt2olgfavOOvuGwoRg==",
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.6",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
         "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.nuspec"
+        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
-      "sha512": "JVlypPjlPqOEyAhET6pA7TqrK+Ya8TrYe2vvqsp62TYKS87oNuReoS7XpDFW0rrOsQo66G1yYf3K0E+lJHFHuw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.6",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.Logging/3.1.6": {
@@ -14085,6 +14401,22 @@
         "portable.bouncycastle.nuspec"
       ]
     },
+    "RestSharp/106.15.0": {
+      "sha512": "HM7ohR6AscxedNenrrl93DSZG6hvdnA7O+NHyCl/6ZKTfn8psQ9rRmUpcb9eWr+140vmfxoVemql0bUoeGEW3A==",
+      "type": "package",
+      "path": "restsharp/106.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.15.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "runtime.any.System.Collections/4.3.0": {
       "sha512": "23g6rqftKmovn2cLeGsuHUYm0FD7pdutb0uQMJpZ3qTvq+zHkgmt6J65VtRry4WDGYlmkMa4xDACtaQ94alNag==",
       "type": "package",
@@ -15040,37 +15372,6 @@
         "runtimes/win/lib/net/_._",
         "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll",
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
-      ]
-    },
-    "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "UamDlgSO/nIzc96M+g3wbvAGbAuXjvRYR5Ttm/FVJgt2iva8ouOqSJ0j6eGI7pZDLvD/ZISl9XRZOajE/Xvizg==",
-      "type": "package",
-      "path": "runtime.win7-x64.runtime.native.system.io.compression/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "runtime.win7-x64.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
-        "runtime.win7-x64.runtime.native.system.io.compression.nuspec",
-        "runtimes/win7-x64/native/clrcompression.dll"
-      ]
-    },
-    "runtime.win7.System.Private.Uri/4.3.0": {
-      "sha512": "Q+IBgaPYicSQs2tBlmXqbS25c/JLIthWrgrpMwxKSOobW/OqIMVFruUGfuaz4QABVzV8iKdCAbN7APY7Tclbnw==",
-      "type": "package",
-      "path": "runtime.win7.system.private.uri/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "ref/netstandard/_._",
-        "runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
-        "runtime.win7.system.private.uri.nuspec",
-        "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
       ]
     },
     "SharpZipLib/1.3.3": {
@@ -20403,10 +20704,10 @@
         "uipath.activities.runtimegovernance.nuspec"
       ]
     },
-    "UiPath.CodedWorkflows/23.10.2": {
-      "sha512": "m+BelgPDzvJdToT+s2ZPp9SmUh6nHoV3Y6IxtGyZlJTEJBjxAFB89sf6ESj4dEfvtCjjVks2eq6iWJkXWSjs8g==",
+    "UiPath.CodedWorkflows/23.10.4": {
+      "sha512": "GjH6NirTcBVt+EZq3l/BUCZhSwsr/SpfEB/0iaGruUyRfckhY2CF9kwsqr5PkjuPrwpebjzSfp4i6VFPutmLJw==",
       "type": "package",
-      "path": "uipath.codedworkflows/23.10.2",
+      "path": "uipath.codedworkflows/23.10.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20438,7 +20739,7 @@
         "lib/net6.0/tr/UiPath.CodedWorkflows.resources.dll",
         "lib/net6.0/zh-CN/UiPath.CodedWorkflows.resources.dll",
         "lib/net6.0/zh-TW/UiPath.CodedWorkflows.resources.dll",
-        "uipath.codedworkflows.23.10.2.nupkg.sha512",
+        "uipath.codedworkflows.23.10.4.nupkg.sha512",
         "uipath.codedworkflows.nuspec"
       ]
     },
@@ -21374,10 +21675,10 @@
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.Testing.Activities/23.10.0": {
-      "sha512": "M5cXuTZ9VWphpQQi0Dz55xOfRFvPXsRCqdYVxCcDu6vY+WFAJhc9pI08gx2z30MrfFSJgjSxMMW8M58Xr5cf8Q==",
+    "UiPath.Testing.Activities/23.10.1": {
+      "sha512": "ssgaMrQgzbxs3THYO0jrv/yHueIAmEIeEHyfCyY57kvOP4fgApKXRA7XpSAPmMGVRDIEZm1zgLNA2SLZMpkm/g==",
       "type": "package",
-      "path": "uipath.testing.activities/23.10.0",
+      "path": "uipath.testing.activities/23.10.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21512,7 +21813,7 @@
         "lib/net6.0/zh-TW/UiPath.Testing.RulesLibrary.resources.dll",
         "lib/net6.0/zu/UiPath.Testing.Activities.resources.dll",
         "lib/net6.0/zu/UiPath.Testing.RulesLibrary.resources.dll",
-        "uipath.testing.activities.23.10.0.nupkg.sha512",
+        "uipath.testing.activities.23.10.1.nupkg.sha512",
         "uipath.testing.activities.nuspec"
       ]
     },
@@ -22190,6 +22491,101 @@
         "uipath.vision.nuspec"
       ]
     },
+    "UiPath.WebAPI.Activities/1.18.0": {
+      "sha512": "D1LUedZSUPBp2S2AeyZDc0eDk3JsTbiiGKTrWalipWJpKfUqBOcrYw0mxvfOr6rZIiPA8xEyjkOIvedTmN5Cdg==",
+      "type": "package",
+      "path": "uipath.webapi.activities/1.18.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Runtime.Mapping.json",
+        "lib/net461/UiPath.Web.Activities.Design.dll",
+        "lib/net461/UiPath.Web.Activities.RulesLibrary.dll",
+        "lib/net461/de/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/zu/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/UiPath.Web.Activities.Design.dll",
+        "lib/net6.0-windows7.0/UiPath.Web.Activities.RulesLibrary.dll",
+        "lib/net6.0-windows7.0/de/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net6.0/UiPath.Web.Activities.RulesLibrary.dll",
+        "lib/net6.0/UiPath.Web.Activities.ViewModels.dll",
+        "uipath.webapi.activities.1.18.0.nupkg.sha512",
+        "uipath.webapi.activities.nuspec"
+      ]
+    },
+    "UiPath.WebAPI.Runtime/1.18.0": {
+      "sha512": "RhCTKRcIoNXAZ2lH23YJ78y0FC8bwLMqzjW5se+Bgg3CHXojx0Ubegl8vXqhpLpP9rttK8Ssi4mWfMVVn4yFoA==",
+      "type": "package",
+      "path": "uipath.webapi.runtime/1.18.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.Web.Activities.dll",
+        "lib/net461/UiPath.Web.dll",
+        "lib/net461/de/UiPath.Web.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Web.Activities.resources.dll",
+        "lib/net461/es/UiPath.Web.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Web.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Web.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Web.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Web.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Web.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Web.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Web.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net461/zu/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/UiPath.Web.Activities.dll",
+        "lib/net6.0-windows7.0/UiPath.Web.dll",
+        "lib/net6.0-windows7.0/de/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0-windows7.0/zu/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/UiPath.Web.Activities.dll",
+        "lib/net6.0/UiPath.Web.dll",
+        "lib/net6.0/de/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/es-MX/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/es/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/fr/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/ja/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/ko/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/pt/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/ru/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/tr/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net6.0/zu/UiPath.Web.Activities.resources.dll",
+        "uipath.webapi.runtime.1.18.0.nupkg.sha512",
+        "uipath.webapi.runtime.nuspec"
+      ]
+    },
     "VPS-OR2.Descriptors/1.0.4": {
       "sha512": "vqPNLo1QzndIi5QLrOV//4i2FaD+YOMBaG7QLIUX5tZyh+2CiNu3QYGaTWhIa8L/nnEqfaQakLA0USUmV6gYVw==",
       "type": "package",
@@ -22253,10 +22649,10 @@
         "vps-or2.descriptors.nuspec"
       ]
     },
-    "VPSLibrary/1.0.49": {
-      "sha512": "zCmbI1tYfPreuHvDDqZcVtbnOI8Yefb9DPGOGw9VTyoncwb++aj5g1HkzVE0Ul8XOxJEQ1fdH/jd/U95TVbePA==",
+    "VPSLibrary/1.0.57": {
+      "sha512": "hL3C6pI6T7h8oJxhawGRg5b/2kDLhyyGyu+5ThG4Yj9AnM4mpEqOS1c4T2yPZox88gX/dZVGSWbUIesCkEgFvQ==",
       "type": "package",
-      "path": "vpslibrary/1.0.49",
+      "path": "vpslibrary/1.0.57",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -22297,12 +22693,42 @@
         "content/LoginFunctions/TestUseApplicationBrowserActivity.xaml.json",
         "content/NavigationFunctions/SelectApplicationLink.xaml",
         "content/NavigationFunctions/SelectApplicationLink.xaml.json",
+        "content/NavigationFunctions/SelectKeyboardEntryLink.xaml",
+        "content/NavigationFunctions/SelectKeyboardEntryLink.xaml.json",
+        "content/NavigationFunctions/SelectSaleLink.xaml",
+        "content/NavigationFunctions/SelectSaleLink.xaml.json",
         "content/NewActivity.xaml",
+        "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml",
+        "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml.json",
         "content/bindings.json",
         "content/bindings_v2.json",
         "content/project.json",
         "contentFiles/any/any/.objects/.metadata",
         "contentFiles/any/any/.objects/.type",
+        "contentFiles/any/any/.objects/42cU/.data/ObjectSelectionName/.content",
+        "contentFiles/any/any/.objects/42cU/.data/ObjectSelectionName/.hash",
+        "contentFiles/any/any/.objects/42cU/.metadata",
+        "contentFiles/any/any/.objects/42cU/.type",
+        "contentFiles/any/any/.objects/42cU/Ox1B/.metadata",
+        "contentFiles/any/any/.objects/42cU/Ox1B/.type",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.data/ObjectRepositoryScreenData/.images/.design/005KsQy_r5UO1IWT662i6Eg",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.metadata",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/.type",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.data/ObjectRepositoryTargetData/.images/.design/0o9SW9vWYjEOZ6P39RLpVMQ",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.metadata",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/iQKU/.type",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.data/ObjectRepositoryTargetData/.images/.design/0VwpTd3dGRE6BrWtdbCjp8g",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.metadata",
+        "contentFiles/any/any/.objects/42cU/Ox1B/CUm1/pHev/.type",
         "contentFiles/any/any/.objects/ReKY/.data/ObjectSelectionName/.content",
         "contentFiles/any/any/.objects/ReKY/.data/ObjectSelectionName/.hash",
         "contentFiles/any/any/.objects/ReKY/.metadata",
@@ -22387,6 +22813,174 @@
         "contentFiles/any/any/.objects/cJt4/_V_b/6pYH/yQ1A/.data/ObjectRepositoryTargetData/.images/.design/0gMbZ1iAio0CnUv5L6HLsyg",
         "contentFiles/any/any/.objects/cJt4/_V_b/6pYH/yQ1A/.metadata",
         "contentFiles/any/any/.objects/cJt4/_V_b/6pYH/yQ1A/.type",
+        "contentFiles/any/any/.objects/fMSP/.data/ObjectSelectionName/.content",
+        "contentFiles/any/any/.objects/fMSP/.data/ObjectSelectionName/.hash",
+        "contentFiles/any/any/.objects/fMSP/.metadata",
+        "contentFiles/any/any/.objects/fMSP/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.data/ObjectRepositoryScreenData/.images/.design/0WtHEVjO8-UWh48vF45T5_A",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.data/ObjectRepositoryTargetData/.images/.design/03-8tb1lJbUGQV-OINgmHoA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/04IM/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.data/ObjectRepositoryTargetData/.images/.design/0U3ehpgODekORDnFYygTGXQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0ExO/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.data/ObjectRepositoryTargetData/.images/.design/0wRXqa8I_7Ueew43JDHH3ng",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/0Vy0/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.data/ObjectRepositoryTargetData/.images/.design/0SadNwYm5w0aDwXWACxN6uw",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/1Bsn/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.data/ObjectRepositoryTargetData/.images/.design/02P7FGYHGOEeyHXHTS-OCsQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/2epF/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.data/ObjectRepositoryTargetData/.images/.design/0RET9lpS5bUKDYWS1BzDPsA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/3EFV/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.data/ObjectRepositoryTargetData/.images/.design/0kJmi98qtnUeyG5ZqcgueZQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/5jqn/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.data/ObjectRepositoryTargetData/.images/.design/0WtiPs2Wo1U2bAe-zqmN-dQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/6hpm/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.data/ObjectRepositoryTargetData/.images/.design/0kYx3L6lWhUKzR5IQWLvMJg",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/7Zha/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.data/ObjectRepositoryTargetData/.images/.design/0mAdWt6XafEOEf4lex_y4UQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/BI4z/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.data/ObjectRepositoryTargetData/.images/.design/0nCXjJgmR90C3mZ35lORvJA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/Ivgp/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.data/ObjectRepositoryTargetData/.images/.design/0yC5MW-SrykexQThmeAnyPw",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/UkQZ/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.data/ObjectRepositoryTargetData/.images/.design/0ccjGNMAdKUmwjlCFaHpCAQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/VTOZ/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.data/ObjectRepositoryTargetData/.images/.design/0Gy4mG1bcCEmnremkoZkgjQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WY_N/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.data/ObjectRepositoryTargetData/.images/.design/0d_pVECW4k0yu2KmLX4vkWg",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WZ7o/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.data/ObjectRepositoryTargetData/.images/.design/0dvZB1pAJ5Eqt7cl7jgmz-Q",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/WeZp/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.data/ObjectRepositoryTargetData/.images/.design/0NqKDE4m0O0m8thTtHcI8gw",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/cm7M/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.data/ObjectRepositoryTargetData/.images/.design/0ZlhaLw-XgU6YrGDkHf_8gg",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/dos1/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.data/ObjectRepositoryTargetData/.images/.design/0W4MrzAMzi0SQ_SLFPK9eoA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/fFye/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.data/ObjectRepositoryTargetData/.images/.design/0wDfdpgpTNUqAq3-rkE6D-A",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/gX1g/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.data/ObjectRepositoryTargetData/.images/.design/0yf-TL0u_PkuzdmTFpL4Xsw",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/qX0D/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.data/ObjectRepositoryTargetData/.images/.design/0gYfwA6Hkz0yApKIHTktFOQ",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/sZFs/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.data/ObjectRepositoryTargetData/.images/.design/07sJqGmJqVESPiV5XNMBZcA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/up1h/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.data/ObjectRepositoryTargetData/.images/.design/0xZ2hA0pwHUSrm_-qucsgiA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/vuqX/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.data/ObjectRepositoryTargetData/.images/.design/0OPvnEH7KukqXCC40pQ92og",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/xrSA/.type",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.data/ObjectRepositoryTargetData/.images/.design/0iWknT2suBkCM6x4WaYgKGA",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.metadata",
+        "contentFiles/any/any/.objects/fMSP/pX9L/FoJP/zPeD/.type",
         "contentFiles/any/any/.objects/iie-/.data/ObjectSelectionName/.content",
         "contentFiles/any/any/.objects/iie-/.data/ObjectSelectionName/.hash",
         "contentFiles/any/any/.objects/iie-/.metadata",
@@ -22443,36 +23037,40 @@
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.data/ObjectRepositoryTargetData/.images/.design/07RPA1Gd_0UmtZE0gNg5-UA",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.metadata",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.type",
-        "lib/net6.0-windows7.0/VPSLibrary.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_28626239.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_33771145.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_35170261.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_37325198.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_38259169.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_38270693.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_40083022.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_41832620.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_43859999.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_49587241.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_5320849.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_53285896.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_57779387.dll",
-        "lib/net6.0-windows7.0/VPSLibrary_Expressions_9456588.dll",
-        "vpslibrary.1.0.49.nupkg.sha512",
+        "lib/net8.0-windows7.0/VPSLibrary.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll",
+        "vpslibrary.1.0.57.nupkg.sha512",
         "vpslibrary.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "": [],
-    "net6.0-windows7.0": [
+    "net8.0-windows7.0": [
       "UiPath.Excel.Activities >= 2.23.0-preview <= 2.23.0-preview",
       "UiPath.GSuite.Activities >= 2.4.3 <= 2.4.3",
       "UiPath.MicrosoftOffice365.Activities >= 2.4.3 <= 2.4.3",
       "UiPath.System.Activities >= 23.12.0-preview <= 23.12.0-preview",
-      "UiPath.Testing.Activities >= 23.10.0 <= 23.10.0",
+      "UiPath.Testing.Activities >= 23.10.1 <= 23.10.1",
       "UiPath.UIAutomation.Activities >= 23.10.8 <= 23.10.8",
-      "VPSLibrary >= 1.0.49 <= 1.0.49"
+      "UiPath.WebAPI.Activities >= 1.18.0 <= 1.18.0",
+      "VPSLibrary >= 1.0.57 <= 1.0.57"
     ]
   },
   "packageFolders": {
@@ -22487,7 +23085,7 @@
       "outputPath": "E:\\UIPath\\VPSAutomation\\.local"
     },
     "frameworks": {
-      "net6.0-windows7.0": {
+      "net8.0-windows7.0": {
         "dependencies": {
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -22512,24 +23110,29 @@
           "UiPath.Testing.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.10.0, 23.10.0]"
+            "version": "[23.10.1, 23.10.1]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
             "version": "[23.10.8, 23.10.8]"
           },
+          "UiPath.WebAPI.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.18.0, 1.18.0]"
+          },
           "VPSLibrary": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.49, 1.0.49]"
+            "version": "[1.0.57, 1.0.57]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\imtiaz\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\imtiaz\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win10-x64": {
+      "win-x64": {
         "#import": []
       }
     }
