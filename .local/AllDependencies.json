@@ -5984,9 +5984,10 @@
           }
         }
       },
-      "VPSLibrary/1.0.57": {
+      "VPSLibrary/1.0.62": {
         "type": "package",
         "dependencies": {
+          "UiPath.Excel.Activities": "2.22.3",
           "UiPath.System.Activities": "23.10.5",
           "UiPath.UIAutomation.Activities": "23.10.8",
           "VPS-OR2.Descriptors": "1.0.4"
@@ -5996,23 +5997,24 @@
         },
         "runtime": {
           "lib/net8.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14517849.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_19293665.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26339161.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_29037998.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_37193602.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_38257569.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_38965330.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42511955.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46326907.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46689242.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_47063234.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_49480984.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52780954.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57561796.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59689521.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_66114884.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_67048036.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_680171.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -11818,9 +11820,10 @@
           }
         }
       },
-      "VPSLibrary/1.0.57": {
+      "VPSLibrary/1.0.62": {
         "type": "package",
         "dependencies": {
+          "UiPath.Excel.Activities": "2.22.3",
           "UiPath.System.Activities": "23.10.5",
           "UiPath.UIAutomation.Activities": "23.10.8",
           "VPS-OR2.Descriptors": "1.0.4"
@@ -11830,23 +11833,24 @@
         },
         "runtime": {
           "lib/net8.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14517849.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_19293665.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_26339161.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_29037998.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_37193602.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_38257569.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_38965330.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42511955.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46326907.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46689242.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_47063234.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_49480984.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52780954.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57561796.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59689521.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_66114884.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_67048036.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_680171.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -22649,10 +22653,10 @@
         "vps-or2.descriptors.nuspec"
       ]
     },
-    "VPSLibrary/1.0.57": {
-      "sha512": "hL3C6pI6T7h8oJxhawGRg5b/2kDLhyyGyu+5ThG4Yj9AnM4mpEqOS1c4T2yPZox88gX/dZVGSWbUIesCkEgFvQ==",
+    "VPSLibrary/1.0.62": {
+      "sha512": "0v9FRpfDA+m7d8FySyoEJN6Av9P4iPXB4TqOAmiUroXScF8tYz4VSVPCYYnZBbKg9+/oY8zzWfTU8R99wYNVJg==",
       "type": "package",
-      "path": "vpslibrary/1.0.57",
+      "path": "vpslibrary/1.0.62",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -22700,6 +22704,8 @@
         "content/NewActivity.xaml",
         "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml",
         "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml.json",
+        "content/SetDataFunctions/TestExcelAccNum-Library.xaml",
+        "content/SetDataFunctions/TestExcelAccNum-Library.xaml.json",
         "content/bindings.json",
         "content/bindings_v2.json",
         "content/project.json",
@@ -23038,24 +23044,25 @@
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.metadata",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.type",
         "lib/net8.0-windows7.0/VPSLibrary.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_11996447.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_12674872.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_14179411.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_18262443.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_25968575.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_26842410.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_31265411.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_33422315.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_34566842.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_34853131.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_35260246.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_3539235.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_57958552.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_58452103.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_63014906.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_6326333.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_8810578.dll",
-        "vpslibrary.1.0.57.nupkg.sha512",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_14517849.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_19293665.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_26339161.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_29037998.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_37193602.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_38257569.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_38965330.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_42511955.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_46326907.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_46689242.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_47063234.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_49480984.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_52780954.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_57561796.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_59689521.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_66114884.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_67048036.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_680171.dll",
+        "vpslibrary.1.0.62.nupkg.sha512",
         "vpslibrary.nuspec"
       ]
     }
@@ -23070,7 +23077,7 @@
       "UiPath.Testing.Activities >= 23.10.1 <= 23.10.1",
       "UiPath.UIAutomation.Activities >= 23.10.8 <= 23.10.8",
       "UiPath.WebAPI.Activities >= 1.18.0 <= 1.18.0",
-      "VPSLibrary >= 1.0.57 <= 1.0.57"
+      "VPSLibrary >= 1.0.62 <= 1.0.62"
     ]
   },
   "packageFolders": {
@@ -23125,7 +23132,7 @@
           "VPSLibrary": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.57, 1.0.57]"
+            "version": "[1.0.62, 1.0.62]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\imtiaz\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"

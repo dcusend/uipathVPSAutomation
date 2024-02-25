@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestDescriptors_Library" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:vl="clr-namespace:VPSLibrary.LoginFunctions;assembly=VPSLibrary" xmlns:vn="clr-namespace:VPSLibrary.NavigationFunctions;assembly=VPSLibrary" xmlns:vs="clr-namespace:VPSLibrary.SetDataFunctions;assembly=VPSLibrary" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestDescriptors_Library" this:TestDescriptors_Library.DesiredBrowser="Chrome" this:TestDescriptors_Library.Environment="QA2" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:vl="clr-namespace:VPSLibrary.LoginFunctions;assembly=VPSLibrary" xmlns:vn="clr-namespace:VPSLibrary.NavigationFunctions;assembly=VPSLibrary" xmlns:vs="clr-namespace:VPSLibrary.SetDataFunctions;assembly=VPSLibrary" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="DesiredBrowser" Type="InArgument(x:String)" />
     <x:Property Name="Environment" Type="InArgument(x:String)" />
@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>900,3357</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>6082,5084</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestDescriptors_Library_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -49,6 +49,12 @@
       <x:String>VPSLibrary.NavigationFunctions</x:String>
       <x:String>System.Linq.Expressions</x:String>
       <x:String>VPSLibrary.SetDataFunctions</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -114,9 +120,12 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="558,3292" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="6092,5019" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Access AutoNoCFtp" Name="AppName" />
     </Sequence.Variables>
@@ -125,7 +134,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="496,3204" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="6030,4931" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="AssignBrowser" />
         <Variable x:TypeArguments="x:String" Name="AssignEnvironment" />
@@ -142,7 +151,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign sap:VirtualizedContainerService.HintSize="5968,122" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[AssignBrowser]</OutArgument>
         </Assign.To>
@@ -150,7 +159,7 @@
           <InArgument x:TypeArguments="x:String">[DesiredBrowser]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign sap:VirtualizedContainerService.HintSize="5968,122" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[AssignEnvironment]</OutArgument>
         </Assign.To>
@@ -158,42 +167,133 @@
           <InArgument x:TypeArguments="x:String">[Environment]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;Desired Browser is : &quot; + AssignBrowser]" />
-      <vl:Setup_AdminSuite_Library DesiredBrowser="[AssignBrowser]" DisplayName="Setup AdminSuite Library" Environment="[AssignEnvironment]" sap:VirtualizedContainerService.HintSize="434,436" sap2010:WorkflowViewState.IdRef="Setup_AdminSuite_Library_1" outASPassword="[PasswordUsed]" outASUsername="[UsernameUsed]" outBrowserName="[BrowserNameUsed]" outDesiredBrowserType="[BrowserUsed]" outDesiredURL="[URLUsed]" />
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[BrowserUsed]" />
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[URLUsed]" />
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[UsernameUsed]" />
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[PasswordUsed]" />
-      <vl:TestDescriptors DisplayName="Test descriptors" sap:VirtualizedContainerService.HintSize="434,283" sap2010:WorkflowViewState.IdRef="TestDescriptors_1" inBrowserType="[BrowserNameUsed]" inPassword="[PasswordUsed]" inURL="[URLUsed]" inUsername="[UsernameUsed]" />
-      <vn:SelectApplicationLink AppName="[AppName]" DisplayName="Select application link" sap:VirtualizedContainerService.HintSize="434,181" sap2010:WorkflowViewState.IdRef="SelectApplicationLink_1" inBrowserType="[BrowserNameUsed]" />
-      <vn:SelectSaleLink DisplayName="Select sale link" sap:VirtualizedContainerService.HintSize="434,130" sap2010:WorkflowViewState.IdRef="SelectSaleLink_1" inBrowserType="[BrowserNameUsed]" />
-      <vn:SelectKeyboardEntryLink DisplayName="Select keyboard entry link" sap:VirtualizedContainerService.HintSize="434,130" sap2010:WorkflowViewState.IdRef="SelectKeyboardEntryLink_1" inBrowserType="[BrowserNameUsed]" />
-      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="434,130" sap2010:WorkflowViewState.IdRef="Delay_1" />
-      <vs:SetDataSaleKeypadEntry DisplayName="Set data sale keypad entry" sap:VirtualizedContainerService.HintSize="434,130" sap2010:WorkflowViewState.IdRef="SetDataSaleKeypadEntry_1" inBrowserType="[BrowserNameUsed]" />
-      <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'MAIN'" sap:VirtualizedContainerService.HintSize="434,195" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[resTranxSuccess]" Text="Transaction Succe8ssful">
-        <ui:TextExists.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e54443cf-c56c-4a04-8d5a-8e99d59cab4a" InformativeScreenshot="55a51475939413792ec68f2ac867a620" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;&lt;webctrl tag='MAIN' /&gt;" TimeoutMS="5000">
-            <ui:Target.WaitForReady>
-              <InArgument x:TypeArguments="ui:WaitForReady" />
-            </ui:Target.WaitForReady>
-          </ui:Target>
-        </ui:TextExists.Target>
-      </ui:TextExists>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[resTranxSuccess]" />
-      <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'MAIN'" sap:VirtualizedContainerService.HintSize="434,195" sap2010:WorkflowViewState.IdRef="TextExists_2" Occurrence="1" Result="[resTranxType]" Text="Authorization and Capture">
-        <ui:TextExists.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e54443cf-c56c-4a04-8d5a-8e99d59cab4a" InformativeScreenshot="55a51475939413792ec68f2ac867a620" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;&lt;webctrl tag='MAIN' /&gt;">
-            <ui:Target.TimeoutMS>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
-            <ui:Target.WaitForReady>
-              <InArgument x:TypeArguments="ui:WaitForReady" />
-            </ui:Target.WaitForReady>
-          </ui:Target>
-        </ui:TextExists.Target>
-      </ui:TextExists>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,125" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[resTranxType]" />
-      <vl:LogoutFromAdminSuite DisplayName="Logout from admin suite" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogoutFromAdminSuite_1" inBrowserType="[BrowserNameUsed]" inURL="[URLUsed]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="5968,125" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;Desired Browser is : &quot; + AssignBrowser]" />
+      <vl:Setup_AdminSuite_Library DesiredBrowser="[AssignBrowser]" DisplayName="Setup AdminSuite Library" Environment="[AssignEnvironment]" sap:VirtualizedContainerService.HintSize="5968,436" sap2010:WorkflowViewState.IdRef="Setup_AdminSuite_Library_1" outASPassword="[PasswordUsed]" outASUsername="[UsernameUsed]" outBrowserName="[BrowserNameUsed]" outDesiredBrowserType="[BrowserUsed]" outDesiredURL="[URLUsed]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="5968,125" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[BrowserUsed]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="5968,125" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[URLUsed]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="5968,125" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[UsernameUsed]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="5968,125" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[PasswordUsed]" />
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="5968,3515" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1" ShowExcelWindow="False">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="5934,3405" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="5872,3320" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="TestData\VT-CC-Transactions.xlsx">
+                <ueab:ExcelApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="VT_CC_Transactions" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="5838,3028" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="5776,2943" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[VT_CC_Transactions.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
+                        <ueab:ExcelForEachRowX.Body>
+                          <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                            <ActivityAction.Argument1>
+                              <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                            </ActivityAction.Argument1>
+                            <ActivityAction.Argument2>
+                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                            </ActivityAction.Argument2>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="5742,2730" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="5680,2645" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                                <ui:IfElseIf.ConditionBlocks>
+                                  <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                                    <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Execute&quot;).Equals(&quot;Y&quot;)]">
+                                      <ui:IfElseIfBlock.Then>
+                                        <Sequence sap:VirtualizedContainerService.HintSize="512,2426" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,394" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <vl:TestDescriptors DisplayName="Test descriptors" sap:VirtualizedContainerService.HintSize="388,266" sap2010:WorkflowViewState.IdRef="TestDescriptors_1" inBrowserType="[BrowserNameUsed]" inPassword="[PasswordUsed]" inURL="[URLUsed]" inUsername="[UsernameUsed]" />
+                                          </Sequence>
+                                          <vn:SelectApplicationLink AppName="[AppName]" DisplayName="Select application link" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="SelectApplicationLink_1" inBrowserType="[BrowserNameUsed]" />
+                                          <vn:SelectSaleLink DisplayName="Select sale link" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="SelectSaleLink_1" inBrowserType="[BrowserNameUsed]" />
+                                          <vn:SelectKeyboardEntryLink DisplayName="Select keyboard entry link" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="SelectKeyboardEntryLink_1" inBrowserType="[BrowserNameUsed]" />
+                                          <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                          <vs:SetDataSaleKeypadEntry DisplayName="Set data sale keypad entry" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="SetDataSaleKeypadEntry_1" inBrowserType="[BrowserNameUsed]" />
+                                          <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'MAIN'" sap:VirtualizedContainerService.HintSize="450,195" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[resTranxSuccess]" Text="Transaction Succe8ssful">
+                                            <ui:TextExists.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e54443cf-c56c-4a04-8d5a-8e99d59cab4a" InformativeScreenshot="55a51475939413792ec68f2ac867a620" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;&lt;webctrl tag='MAIN' /&gt;" TimeoutMS="5000">
+                                                <ui:Target.WaitForReady>
+                                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                </ui:Target.WaitForReady>
+                                              </ui:Target>
+                                            </ui:TextExists.Target>
+                                          </ui:TextExists>
+                                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[resTranxSuccess]" />
+                                          <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="450,231" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                                            <uta:VerifyExpressionWithOperator.FirstExpression>
+                                              <InArgument x:TypeArguments="x:String">["True"]</InArgument>
+                                            </uta:VerifyExpressionWithOperator.FirstExpression>
+                                            <uta:VerifyExpressionWithOperator.SecondExpression>
+                                              <InArgument x:TypeArguments="x:Boolean">[resTranxSuccess]</InArgument>
+                                            </uta:VerifyExpressionWithOperator.SecondExpression>
+                                          </uta:VerifyExpressionWithOperator>
+                                          <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'MAIN'" sap:VirtualizedContainerService.HintSize="450,195" sap2010:WorkflowViewState.IdRef="TextExists_2" Occurrence="1" Result="[resTranxType]" Text="Authorization and Capture">
+                                            <ui:TextExists.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e54443cf-c56c-4a04-8d5a-8e99d59cab4a" InformativeScreenshot="55a51475939413792ec68f2ac867a620" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;&lt;webctrl tag='MAIN' /&gt;">
+                                                <ui:Target.TimeoutMS>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:Target.TimeoutMS>
+                                                <ui:Target.WaitForReady>
+                                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                </ui:Target.WaitForReady>
+                                              </ui:Target>
+                                            </ui:TextExists.Target>
+                                          </ui:TextExists>
+                                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[resTranxType]" />
+                                          <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="450,231" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                                            <uta:VerifyExpressionWithOperator.FirstExpression>
+                                              <InArgument x:TypeArguments="x:Boolean">[resTranxType]</InArgument>
+                                            </uta:VerifyExpressionWithOperator.FirstExpression>
+                                            <uta:VerifyExpressionWithOperator.SecondExpression>
+                                              <InArgument x:TypeArguments="x:String">["True"]</InArgument>
+                                            </uta:VerifyExpressionWithOperator.SecondExpression>
+                                          </uta:VerifyExpressionWithOperator>
+                                          <vl:LogoutFromAdminSuite DisplayName="Logout from admin suite" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogoutFromAdminSuite_1" inBrowserType="[BrowserNameUsed]" inURL="[URLUsed]" />
+                                        </Sequence>
+                                      </ui:IfElseIfBlock.Then>
+                                    </ui:IfElseIfBlock>
+                                  </sc:BindingList>
+                                </ui:IfElseIf.ConditionBlocks>
+                              </ui:IfElseIf>
+                            </Sequence>
+                          </ActivityAction>
+                        </ueab:ExcelForEachRowX.Body>
+                      </ueab:ExcelForEachRowX>
+                    </Sequence>
+                  </ActivityAction>
+                </ueab:ExcelApplicationCard.Body>
+              </ueab:ExcelApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ueab:ExcelProcessScopeX.Body>
+      </ueab:ExcelProcessScopeX>
     </Sequence>
   </Sequence>
 </Activity>

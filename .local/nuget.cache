@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b1BqU40ezNfNP3aVHooEeVa4+IKJzkNkdoZuSp4jnVJoWQHtt9/RiMeI2xZGzrpUcarAw4Er5yjgZ0mDrex1Zw==",
+  "dgSpecHash": "tecJCt00RXDjtxZMpLx0hRN6ojGlRi88LBlhPF/AeEz8Ju5sOvFmyyPxVYZVoTI958FYXmtwFr14h6ubdQQxHA==",
   "success": true,
   "projectFilePath": "E:\\UIPath\\VPSAutomation\\.local\\",
   "expectedPackageFiles": [
@@ -288,7 +288,7 @@
     "C:\\Users\\imtiaz\\.nuget\\packages\\uipath.webapi.activities\\1.18.0\\uipath.webapi.activities.1.18.0.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\uipath.webapi.runtime\\1.18.0\\uipath.webapi.runtime.1.18.0.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\vps-or2.descriptors\\1.0.4\\vps-or2.descriptors.1.0.4.nupkg.sha512",
-    "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.57\\vpslibrary.1.0.57.nupkg.sha512"
+    "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.62\\vpslibrary.1.0.62.nupkg.sha512"
   ],
   "logs": []
 }

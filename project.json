@@ -11,7 +11,7 @@
     "UiPath.Testing.Activities": "[23.10.1]",
     "UiPath.UIAutomation.Activities": "[23.10.8]",
     "UiPath.WebAPI.Activities": "[1.18.0]",
-    "VPSLibrary": "[1.0.57]"
+    "VPSLibrary": "[1.0.62]"
   },
   "webServices": [],
   "entitiesStores": [],
