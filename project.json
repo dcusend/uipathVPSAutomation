@@ -11,13 +11,13 @@
     "UiPath.Testing.Activities": "[23.10.1]",
     "UiPath.UIAutomation.Activities": "[23.10.8]",
     "UiPath.WebAPI.Activities": "[1.18.0]",
-    "VPSLibrary": "[1.0.62]"
+    "VPSLibrary": "[1.0.71]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.2.0",
-  "projectVersion": "1.0.162442884",
+  "projectVersion": "1.0.162617813",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

@@ -180,6 +180,7 @@
       "Path": "Test Cases/AdminSuite/Virtual Terminal/TestDescriptors-Library.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "VP1&Sequence_7",
         "resTranxSuccess&Sequence_2",
         "resTranxType&Sequence_2",
         "AppName&Sequence_1",
