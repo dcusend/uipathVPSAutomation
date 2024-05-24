@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1219,5997</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1219,6127</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestDescriptors_Library_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -128,7 +128,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="1072,5932" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestDescriptors_Library" sap:VirtualizedContainerService.HintSize="1072,6062" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="AppName" />
     </Sequence.Variables>
@@ -137,7 +137,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="1010,5844" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="1010,5974" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="AssignBrowser" />
         <Variable x:TypeArguments="x:String" Name="AssignEnvironment" />
@@ -176,31 +176,31 @@
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="948,125" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[URLUsed]" />
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="948,125" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[UsernameUsed]" />
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="948,125" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[PasswordUsed]" />
-      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Excel Process Scope" FileConflictResolution="None" sap:VirtualizedContainerService.HintSize="948,4428" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1" ShowExcelWindow="False">
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Excel Process Scope" FileConflictResolution="None" sap:VirtualizedContainerService.HintSize="948,4558" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1" ShowExcelWindow="False">
         <ueab:ExcelProcessScopeX.Body>
           <ActivityAction x:TypeArguments="ui:IExcelProcess">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="914,4318" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="914,4448" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="852,4233" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="TestData\VT-CC-Transactions.xlsx">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="852,4363" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="TestData\VT-CC-Transactions.xlsx">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="VT_CC_Transactions" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="818,3941" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="818,4071" sap2010:WorkflowViewState.IdRef="Sequence_4">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="756,3856" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[VT_CC_Transactions.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
+                      <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="756,3986" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[VT_CC_Transactions.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
                         <ueab:ExcelForEachRowX.Body>
                           <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                             <ActivityAction.Argument1>
@@ -209,18 +209,18 @@
                             <ActivityAction.Argument2>
                               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                             </ActivityAction.Argument2>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="722,3643" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="722,3773" sap2010:WorkflowViewState.IdRef="Sequence_5">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="660,3558" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="660,3688" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
                                 <ui:IfElseIf.ConditionBlocks>
                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                                     <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Execute&quot;).Equals(&quot;Y&quot;)]">
                                       <ui:IfElseIfBlock.Then>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="609,3339" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="609,3469" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="VP1" />
                                           </Sequence.Variables>
@@ -242,6 +242,7 @@
                                               <OutArgument x:TypeArguments="x:String">[AppName]</OutArgument>
                                             </ueab:ReadCellValueX.SaveTo>
                                           </ueab:ReadCellValueX>
+                                          <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="547,130" sap2010:WorkflowViewState.IdRef="Delay_2" />
                                           <vn:SelectApplicationLink AppName="[AppName]" DisplayName="Select application link" sap:VirtualizedContainerService.HintSize="547,181" sap2010:WorkflowViewState.IdRef="SelectApplicationLink_1" inBrowserType="[BrowserNameUsed]" />
                                           <vn:SelectSaleLink DisplayName="Select sale link" sap:VirtualizedContainerService.HintSize="547,130" sap2010:WorkflowViewState.IdRef="SelectSaleLink_1" inBrowserType="[BrowserNameUsed]" />
                                           <vn:SelectKeyboardEntryLink DisplayName="Select keyboard entry link" sap:VirtualizedContainerService.HintSize="547,130" sap2010:WorkflowViewState.IdRef="SelectKeyboardEntryLink_1" inBrowserType="[BrowserNameUsed]" />

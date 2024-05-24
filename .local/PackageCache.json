@@ -291,7 +291,7 @@
     {
       "Package": {
         "Id": "VPSLibrary",
-        "Version": "1.0.71"
+        "Version": "1.0.72"
       },
       "Assemblies": [
         "C:\\Users\\imtiaz\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
@@ -420,27 +420,27 @@
         "C:\\Users\\imtiaz\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\imtiaz\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\imtiaz\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_10370958.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_11185032.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_11609895.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_13116917.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_25584554.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_25645839.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_28738386.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_34874449.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_36299101.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_38643852.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_43264580.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_48178326.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_53932622.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_54603274.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_55600573.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_5560998.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_62220688.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib/net8.0-windows7.0/VPSLibrary_Expressions_6460125.dll"
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_11653880.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_12466274.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_13704464.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_14000148.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_25584554.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_27599521.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_30207987.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_31237302.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_32101292.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_42941919.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_44956049.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_49794252.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_5568223.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_57756343.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_59705626.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_62265144.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_7195155.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_9426669.dll"
       ],
-      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71"
+      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72"
     }
   ],
   "Conflicts": [],
@@ -5111,7 +5111,7 @@
     },
     "VPSLibrary": {
       "Id": "VPSLibrary",
-      "Version": "1.0.71",
+      "Version": "1.0.72",
       "Dependencies": [
         {
           "Item1": "UiPath.Excel.Activities",
@@ -7913,30 +7913,30 @@
     {
       "Package": {
         "Id": "VPSLibrary",
-        "Version": "1.0.71"
+        "Version": "1.0.72"
       },
       "Assemblies": [
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_10370958.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_11185032.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_11609895.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_13116917.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_25584554.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_25645839.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_28738386.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_34874449.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_36299101.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_38643852.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_43264580.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_48178326.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_53932622.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_54603274.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_55600573.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_5560998.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_62220688.dll",
-        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_6460125.dll"
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_11653880.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_12466274.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_13704464.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_14000148.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_25584554.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_27599521.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_30207987.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_31237302.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_32101292.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_42941919.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_44956049.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_49794252.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_5568223.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_57756343.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_59705626.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_62265144.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_7195155.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_9426669.dll"
       ],
-      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.71"
+      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72"
     }
   ]
 }

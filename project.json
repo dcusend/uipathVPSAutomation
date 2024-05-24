@@ -11,13 +11,13 @@
     "UiPath.Testing.Activities": "[23.10.1]",
     "UiPath.UIAutomation.Activities": "[23.10.8]",
     "UiPath.WebAPI.Activities": "[1.18.0]",
-    "VPSLibrary": "[1.0.71]"
+    "VPSLibrary": "[1.0.72]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.2.0",
-  "projectVersion": "1.0.162617813",
+  "projectVersion": "1.0.165100246",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -213,6 +213,26 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestExcelAccountNumbers.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7f9f6a46-bb09-43a5-9566-f33ddbd12f65",
+        "testCaseType": "TestCase",
+        "fileName": "TestCaseCoded.cs"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d84c71bb-e887-4bae-aeef-96ede96982f1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AdminSuite\\Virtual Terminal\\TestCaseForDemo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b9688bfe-c1de-4b72-a3d9-e84920bf1cd2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases for Training\\VT-SaleTransaction.xaml"
       }
     ],
     "modernBehavior": false,
