@@ -15,6 +15,14 @@ namespace VPSAutomation
         }
 
         /// <summary>
+        /// Invokes the Sequence-Imtiaz.xaml
+        /// </summary>
+        public void Sequence_Imtiaz()
+        {
+            var result = _runWorkflowHandler(@"Sequence-Imtiaz.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
         /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestOR2.xaml
         /// </summary>
         public void TestOR2(string DesiredBrowser, string Environment)
