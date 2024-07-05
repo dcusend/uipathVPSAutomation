@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="VT_SaleTransaction" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1624,4218" sap2010:WorkflowViewState.IdRef="VT_SaleTransaction_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="VT_SaleTransaction" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1624,6832" sap2010:WorkflowViewState.IdRef="VT_SaleTransaction_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -37,6 +37,11 @@
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Numerics</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -97,205 +102,314 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="VT_SaleTransaction" sap:VirtualizedContainerService.HintSize="512,4153.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="VT_SaleTransaction" sap:VirtualizedContainerService.HintSize="995.3333333333334,6767.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Velocity Payment System" sap:VirtualizedContainerService.HintSize="450,4065.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="759af983-c358-4d95-a770-a5c8f8591d70" Version="V2">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,3823.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:Boolean" Name="outputTranxSux" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="iahmed1" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1067, 942, 480, 69" CvType="InputBox" DesignTimeRectangle="1071, 948, 472, 58" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT okta-signin-usern…'" FullSelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' type='text' class='' aaname='Username ' /&gt;" Guid="a96e9538-fc0b-426c-83eb-8e15d587cae4" InformativeScreenshot="54d5ceaeacc46020b2f3dbe543dcf268.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvTextArea="1069, 915, 108, 18" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="1070, 911, 112, 25" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username ' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="Hello!5555555" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1066, 1056, 479, 66" CvType="InputBox" DesignTimeRectangle="1071, 1060, 472, 58" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT okta-signin-passw…'" FullSelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' type='password' class='' aaname='Password ' /&gt;" Guid="0277bc7a-8fae-440b-88d8-99f5f73c4d84" InformativeScreenshot="0266623f92de2009941826112d97cf14.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvTextArea="1069, 1027, 99, 19" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="1070, 1024, 106, 25" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1067, 1226, 477, 80" CvTextArea="1268, 1255, 75, 25" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="1070, 1229, 474, 75" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' type='submit' class='button button-primary' aaname='Sign In' check:text='Sign In' /&gt;" Guid="1a41fb04-cfb9-4647-ac10-5ed1a5dcc042" InformativeScreenshot="e3e87e9668b2eeb3b2818a50944d863b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Access Camel'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvTextArea="1197, 1017, 303, 21" CvTextArgument="Access Camel License Fees" CvType="Text" DesignTimeRectangle="1195, 1011, 307, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Access Camel'" FullSelectorArgument="&lt;webctrl aaname='Access Camel License Fees' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Access Camel License Fees' tag='A' type='' class='' check:innerText='Access Camel License Fees' /&gt;" Guid="498f2e5e-b5b4-45d7-91c7-23877ac7ea65" InformativeScreenshot="326cae4666d27ff61a4c277b6288840a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Authorization &amp;'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/" CvElementArea="454, 641, 24, 28" CvTextArea="479, 640, 377, 31" CvTextArgument="Authorization &amp; Capture (Sale)" CvType="ArrowButton" DesignTimeRectangle="460, 636, 942, 42" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Authorization &amp;'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn btn-link btn-block p-0 text-left' aaname=' &amp;#x9;                                    &amp;#x9;Authorization &amp;amp; Capture (Sale) &amp;#x9;                                    ' check:innerText='Authorization &amp;amp; Capture (Sale)' /&gt;" Guid="5586ee50-8e5e-4863-899a-18f54c317218" InformativeScreenshot="9bf23e524739d6a5037ee85aa99cf7a3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Keyboard Entry'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/" CvTextArea="506, 712, 171, 27" CvTextArgument="Keyboard Entry" CvType="Text" DesignTimeRectangle="508, 707, 170, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Keyboard Entry'" FullSelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' type='' class='ml-2' aaname='Keyboard Entry' check:innerText='Keyboard Entry' /&gt;" Guid="7ca39754-a01e-4b70-99b7-904b26c9c863" InformativeScreenshot="c1510c9ba337c5b1270940d44e4cb79d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT zip'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="22201" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="948, 1313, 496, 74" CvType="InputBox" DesignTimeRectangle="952, 1315, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT zip'" FullSelectorArgument="&lt;webctrl id='zip' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='zip' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="3f178f44-748f-4fe9-8e15-b39e32c86cc9" InformativeScreenshot="4ace4e7249e6e780f2f65392290b59df.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Cardholder Name*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="Imtiaz Ahmed" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 884, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 886, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT card_name'" FullSelectorArgument="&lt;webctrl id='card_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='card_name' tag='INPUT' type='TEXT' class='form-control' aaname='' /&gt;" Guid="f1cb5411-ffe6-4e51-ac1b-147da0ac390f" InformativeScreenshot="30d4005691f1b78eae95ad7e30b24445.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvElementArea="413, 884, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 886, 234, 109" ElementType="Text" FriendlyName="'Cardholder Name*'" FullSelectorArgument="&lt;webctrl aaname='Cardholder Name' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Cardholder Name' tag='LABEL' type='' class='' check:innerText='Cardholder Name*' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NSelectItem DisplayName="Select Item 'Select One'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Retail Transaction" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NSelectItem.Items>
-                <scg:List x:TypeArguments="x:String" Capacity="3">
-                  <x:String>Select One</x:String>
-                  <x:String>Mail Order/Telephone Order</x:String>
-                  <x:String>Retail Transaction</x:String>
-                </scg:List>
-              </uix:NSelectItem.Items>
-              <uix:NSelectItem.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="952, 886, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Select One'" FullSelectorArgument="&lt;webctrl id='transactionCategory' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='transactionCategory' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="1650f4fd-2bbd-4608-85b1-fc84ccb2117f" InformativeScreenshot="c1924def25c1d58ea6c20d020eef7944.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
-              </uix:NSelectItem.Target>
-            </uix:NSelectItem>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Card Number*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="4111111111111111" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 993, 494, 73" CvType="InputBox" DesignTimeRectangle="416, 995, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT cardNumber'" FullSelectorArgument="&lt;webctrl id='cardNumber' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cardNumber' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="200cdb9e-23c0-4429-b3b1-34cc6d2e4a5f" InformativeScreenshot="37860cfecdae9b7a3cf0e713114e3663.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvElementArea="413, 993, 494, 73" CvType="InputBox" DesignTimeRectangle="416, 995, 189, 109" ElementType="Text" FriendlyName="'Card Number*'" FullSelectorArgument="&lt;webctrl aaname='Card Number' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Card Number' tag='LABEL' type='' class='' check:innerText='Card Number*' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NSelectItem DisplayName="Select Item 'MM'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="12" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NSelectItem.Items>
-                <scg:List x:TypeArguments="x:String" Capacity="13">
-                  <x:String>MM</x:String>
-                  <x:String>01</x:String>
-                  <x:String>02</x:String>
-                  <x:String>03</x:String>
-                  <x:String>04</x:String>
-                  <x:String>05</x:String>
-                  <x:String>06</x:String>
-                  <x:String>07</x:String>
-                  <x:String>08</x:String>
-                  <x:String>09</x:String>
-                  <x:String>10</x:String>
-                  <x:String>11</x:String>
-                  <x:String>12</x:String>
-                </scg:List>
-              </uix:NSelectItem.Items>
-              <uix:NSelectItem.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="416, 1104, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'MM'" FullSelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpMonth' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpMonth' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="69a467a6-46a0-4b2a-baac-24dcc3997442" InformativeScreenshot="2f12147134360c03664a8489d21777b8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
-              </uix:NSelectItem.Target>
-            </uix:NSelectItem>
-            <uix:NSelectItem DisplayName="Select Item 'YYYY'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="2028" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NSelectItem.Items>
-                <scg:List x:TypeArguments="x:String" Capacity="17">
-                  <x:String>YYYY</x:String>
-                  <x:String>2024</x:String>
-                  <x:String>2025</x:String>
-                  <x:String>2026</x:String>
-                  <x:String>2027</x:String>
-                  <x:String>2028</x:String>
-                  <x:String>2029</x:String>
-                  <x:String>2030</x:String>
-                  <x:String>2031</x:String>
-                  <x:String>2032</x:String>
-                  <x:String>2033</x:String>
-                  <x:String>2034</x:String>
-                  <x:String>2035</x:String>
-                  <x:String>2036</x:String>
-                  <x:String>2037</x:String>
-                  <x:String>2038</x:String>
-                  <x:String>2039</x:String>
-                </scg:List>
-              </uix:NSelectItem.Items>
-              <uix:NSelectItem.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="952, 1104, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'YYYY'" FullSelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="75f92a70-7069-4bc5-ab5a-d3bc1cf356aa" InformativeScreenshot="c90cb48f0a83538ec1abc9036ca4ac33.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
-              </uix:NSelectItem.Target>
-            </uix:NSelectItem>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address Line 1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="2311 york road" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 1204, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 1206, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT address'" FullSelectorArgument="&lt;webctrl id='address' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='address' tag='INPUT' type='TEXT' class='form-control' aaname='' /&gt;" Guid="283f5c26-512b-4979-abb6-286a1027bcc7" InformativeScreenshot="5240cd3461141e1524b6401b1fe9e011.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvElementArea="413, 1204, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 1206, 180, 109" ElementType="Text" FriendlyName="'Address Line 1'" FullSelectorArgument="&lt;webctrl aaname='Address Line 1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Address Line 1' tag='LABEL' type='' class='' check:innerText='Address Line 1' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Amount*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="10.50" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="1560, 693, 421, 72" CvType="InputBox" DesignTimeRectangle="1564, 695, 418, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT amount'" FullSelectorArgument="&lt;webctrl id='amount' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='amount' tag='INPUT' type='text' class='form-control text-right' aaname='' /&gt;" Guid="0be25545-5f1b-4eb3-a5a9-6efa4ad5b1be" InformativeScreenshot="ad72d083b0910612a59f0e844032dca2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CvElementArea="1560, 693, 421, 72" CvType="InputBox" DesignTimeRectangle="1557, 695, 131, 70" ElementType="Text" FriendlyName="'Amount*'" FullSelectorArgument="&lt;webctrl aaname='Amount' parentid='form1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Amount' parentid='form1' tag='LABEL' type='' class='' check:innerText='Amount*' /&gt;" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="2245, 547, 120, 60" CvTextArea="2266, 565, 78, 21" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="2249, 549, 116, 56" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='submit2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='submit2' tag='BUTTON' type='button' class='btn btn-primary mr-3' aaname='Submit' check:innerText='Submit' /&gt;" Guid="003c0b6c-e60d-4a29-8be5-aadc20df5265" InformativeScreenshot="e238203b78784072f1254e5560017ab7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'A'" sap:VirtualizedContainerService.HintSize="354,189.33333333333334" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[outputTranxSux]" Text="Transaction Successful">
-              <ui:TextExists.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3587303-b231-4ba3-8b85-6407e5594503" InformativeScreenshot="490db7ff8a8c56e4b0137c3d8a53056c" Selector="&lt;webctrl tag='MAIN' /&gt;">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TextExists.Target>
-            </ui:TextExists>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,112" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[outputTranxSux]" />
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="1103, 284, 2613, 1677" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" InformativeScreenshot="9962efd889f11fa9d8d7fe29975a6afe.jpg" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" Title="Velocity Payment System" Url="https://demo.velocitypayment.com/admin/imtiazdemo" />
-      </uix:NApplicationCard.TargetApp>
-    </uix:NApplicationCard>
+    <Sequence sap:VirtualizedContainerService.HintSize="933.3333333333334,6679.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="sd:DataTable" Name="ReadDT" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ReadDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="871.3333333333334,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="TestData\VT-CC-Transactions-Demo.xlsx" />
+      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ReadDT]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="871.3333333333334,6448.666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+        <ui:ForEachRow.Body>
+          <ActivityAction x:TypeArguments="sd:DataRow">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="837.3333333333334,6258" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="775.3333333333334,6173.333333333333" sap2010:WorkflowViewState.IdRef="IfElseIf_2">
+                <ui:IfElseIf.ConditionBlocks>
+                  <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                    <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Execute&quot;).Equals(&quot;Y&quot;)]">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="625.3333333333334,5949.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Velocity Payment System" sap:VirtualizedContainerService.HintSize="563.3333333333334,5864.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="759af983-c358-4d95-a770-a5c8f8591d70" Version="V2">
+                            <uix:NApplicationCard.Body>
+                              <ActivityAction x:TypeArguments="x:Object">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="529.3333333333334,5622.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="x:Boolean" Name="outputforTextFound" />
+                                    <Variable x:TypeArguments="x:String" Default="Haris" Name="someVariable" />
+                                  </Sequence.Variables>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="iahmed1" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1067, 942, 480, 69" CvType="InputBox" DesignTimeRectangle="1071, 948, 472, 58" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT okta-signin-usern…'" FullSelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' type='text' class='' aaname='Username ' /&gt;" Guid="a96e9538-fc0b-426c-83eb-8e15d587cae4" InformativeScreenshot="54d5ceaeacc46020b2f3dbe543dcf268.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvTextArea="1069, 915, 108, 18" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="1070, 911, 112, 25" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username ' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="Hello!5555555" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1066, 1056, 479, 66" CvType="InputBox" DesignTimeRectangle="1071, 1060, 472, 58" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT okta-signin-passw…'" FullSelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' type='password' class='' aaname='Password ' /&gt;" Guid="0277bc7a-8fae-440b-88d8-99f5f73c4d84" InformativeScreenshot="0266623f92de2009941826112d97cf14.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvTextArea="1069, 1027, 99, 19" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="1070, 1024, 106, 25" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="1067, 1226, 477, 80" CvTextArea="1268, 1255, 75, 25" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="1070, 1229, 474, 75" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' type='submit' class='button button-primary' aaname='Sign In' check:text='Sign In' /&gt;" Guid="1a41fb04-cfb9-4647-ac10-5ed1a5dcc042" InformativeScreenshot="e3e87e9668b2eeb3b2818a50944d863b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Access Camel'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvTextArea="1197, 1017, 303, 21" CvTextArgument="Access Camel License Fees" CvType="Text" DesignTimeRectangle="1195, 1011, 307, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Access Camel'" FullSelectorArgument="&lt;webctrl aaname='Access Camel License Fees' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Access Camel License Fees' tag='A' type='' class='' check:innerText='Access Camel License Fees' /&gt;" Guid="498f2e5e-b5b4-45d7-91c7-23877ac7ea65" InformativeScreenshot="326cae4666d27ff61a4c277b6288840a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Authorization &amp;'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/" CvElementArea="454, 641, 24, 28" CvTextArea="479, 640, 377, 31" CvTextArgument="Authorization &amp; Capture (Sale)" CvType="ArrowButton" DesignTimeRectangle="460, 636, 942, 42" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Authorization &amp;'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn btn-link btn-block p-0 text-left' aaname=' &amp;#x9;                                    &amp;#x9;Authorization &amp;amp; Capture (Sale) &amp;#x9;                                    ' check:innerText='Authorization &amp;amp; Capture (Sale)' /&gt;" Guid="5586ee50-8e5e-4863-899a-18f54c317218" InformativeScreenshot="9bf23e524739d6a5037ee85aa99cf7a3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Keyboard Entry'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/" CvTextArea="506, 712, 171, 27" CvTextArgument="Keyboard Entry" CvType="Text" DesignTimeRectangle="508, 707, 170, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Keyboard Entry'" FullSelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' type='' class='ml-2' aaname='Keyboard Entry' check:innerText='Keyboard Entry' /&gt;" Guid="7ca39754-a01e-4b70-99b7-904b26c9c863" InformativeScreenshot="c1510c9ba337c5b1270940d44e4cb79d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT zip'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="[CurrentRow(&quot;ZIP&quot;).tostring()]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="948, 1313, 496, 74" CvType="InputBox" DesignTimeRectangle="952, 1315, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT zip'" FullSelectorArgument="&lt;webctrl id='zip' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='zip' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="3f178f44-748f-4fe9-8e15-b39e32c86cc9" InformativeScreenshot="4ace4e7249e6e780f2f65392290b59df.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Cardholder Name*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="[CurrentRow(&quot;CardName&quot;).tostring()]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 884, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 886, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT card_name'" FullSelectorArgument="&lt;webctrl id='card_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='card_name' tag='INPUT' type='TEXT' class='form-control' aaname='' /&gt;" Guid="f1cb5411-ffe6-4e51-ac1b-147da0ac390f" InformativeScreenshot="30d4005691f1b78eae95ad7e30b24445.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvElementArea="413, 884, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 886, 234, 109" ElementType="Text" FriendlyName="'Cardholder Name*'" FullSelectorArgument="&lt;webctrl aaname='Cardholder Name' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Cardholder Name' tag='LABEL' type='' class='' check:innerText='Cardholder Name*' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NSelectItem DisplayName="Select Item 'Select One'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[CurrentRow(&quot;TranxCategory&quot;).tostring()]" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NSelectItem.Items>
+                                      <scg:List x:TypeArguments="x:String" Capacity="3">
+                                        <x:String>Select One</x:String>
+                                        <x:String>Mail Order/Telephone Order</x:String>
+                                        <x:String>Retail Transaction</x:String>
+                                      </scg:List>
+                                    </uix:NSelectItem.Items>
+                                    <uix:NSelectItem.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="952, 886, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Select One'" FullSelectorArgument="&lt;webctrl id='transactionCategory' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='transactionCategory' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="1650f4fd-2bbd-4608-85b1-fc84ccb2117f" InformativeScreenshot="c1924def25c1d58ea6c20d020eef7944.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                                    </uix:NSelectItem.Target>
+                                  </uix:NSelectItem>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Card Number*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="[CurrentRow(&quot;CardNumber&quot;).tostring()]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 993, 494, 73" CvType="InputBox" DesignTimeRectangle="416, 995, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT cardNumber'" FullSelectorArgument="&lt;webctrl id='cardNumber' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cardNumber' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="200cdb9e-23c0-4429-b3b1-34cc6d2e4a5f" InformativeScreenshot="37860cfecdae9b7a3cf0e713114e3663.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvElementArea="413, 993, 494, 73" CvType="InputBox" DesignTimeRectangle="416, 995, 189, 109" ElementType="Text" FriendlyName="'Card Number*'" FullSelectorArgument="&lt;webctrl aaname='Card Number' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Card Number' tag='LABEL' type='' class='' check:innerText='Card Number*' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NSelectItem DisplayName="Select Item 'MM'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="[CurrentRow(&quot;ExpMM&quot;).tostring()]" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NSelectItem.Items>
+                                      <scg:List x:TypeArguments="x:String" Capacity="13">
+                                        <x:String>MM</x:String>
+                                        <x:String>01</x:String>
+                                        <x:String>02</x:String>
+                                        <x:String>03</x:String>
+                                        <x:String>04</x:String>
+                                        <x:String>05</x:String>
+                                        <x:String>06</x:String>
+                                        <x:String>07</x:String>
+                                        <x:String>08</x:String>
+                                        <x:String>09</x:String>
+                                        <x:String>10</x:String>
+                                        <x:String>11</x:String>
+                                        <x:String>12</x:String>
+                                      </scg:List>
+                                    </uix:NSelectItem.Items>
+                                    <uix:NSelectItem.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="416, 1104, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'MM'" FullSelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpMonth' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpMonth' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="69a467a6-46a0-4b2a-baac-24dcc3997442" InformativeScreenshot="2f12147134360c03664a8489d21777b8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                                    </uix:NSelectItem.Target>
+                                  </uix:NSelectItem>
+                                  <uix:NSelectItem DisplayName="Select Item 'YYYY'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[CurrentRow(&quot;ExpYYYY&quot;).tostring()]" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NSelectItem.Items>
+                                      <scg:List x:TypeArguments="x:String" Capacity="17">
+                                        <x:String>YYYY</x:String>
+                                        <x:String>2024</x:String>
+                                        <x:String>2025</x:String>
+                                        <x:String>2026</x:String>
+                                        <x:String>2027</x:String>
+                                        <x:String>2028</x:String>
+                                        <x:String>2029</x:String>
+                                        <x:String>2030</x:String>
+                                        <x:String>2031</x:String>
+                                        <x:String>2032</x:String>
+                                        <x:String>2033</x:String>
+                                        <x:String>2034</x:String>
+                                        <x:String>2035</x:String>
+                                        <x:String>2036</x:String>
+                                        <x:String>2037</x:String>
+                                        <x:String>2038</x:String>
+                                        <x:String>2039</x:String>
+                                      </scg:List>
+                                    </uix:NSelectItem.Items>
+                                    <uix:NSelectItem.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" DesignTimeRectangle="952, 1104, 491, 70" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'YYYY'" FullSelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="75f92a70-7069-4bc5-ab5a-d3bc1cf356aa" InformativeScreenshot="c90cb48f0a83538ec1abc9036ca4ac33.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                                    </uix:NSelectItem.Target>
+                                  </uix:NSelectItem>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address Line 1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="[CurrentRow(&quot;AL1&quot;).tostring()]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="413, 1204, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 1206, 491, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT address'" FullSelectorArgument="&lt;webctrl id='address' /&gt;" FuzzySelectorArgument="&lt;webctrl id='address' /&gt;" Guid="283f5c26-512b-4979-abb6-286a1027bcc7" InformativeScreenshot="5240cd3461141e1524b6401b1fe9e011.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvElementArea="413, 1204, 495, 73" CvType="InputBox" DesignTimeRectangle="416, 1206, 180, 109" ElementType="Text" FriendlyName="'Address Line 1'" FullSelectorArgument="&lt;webctrl aaname='Address Line 1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Address Line 1' tag='LABEL' type='' class='' check:innerText='Address Line 1' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Amount*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="467.3333333333333,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Text="[CurrentRow(&quot;Amount&quot;).tostring()]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="1560, 693, 421, 72" CvType="InputBox" DesignTimeRectangle="1564, 695, 418, 70" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT amount'" FullSelectorArgument="&lt;webctrl id='amount' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='amount' tag='INPUT' type='text' class='form-control text-right' aaname='' /&gt;" Guid="0be25545-5f1b-4eb3-a5a9-6efa4ad5b1be" InformativeScreenshot="ad72d083b0910612a59f0e844032dca2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CvElementArea="1560, 693, 421, 72" CvType="InputBox" DesignTimeRectangle="1557, 695, 131, 70" ElementType="Text" FriendlyName="'Amount*'" FullSelectorArgument="&lt;webctrl aaname='Amount' parentid='form1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Amount' parentid='form1' tag='LABEL' type='' class='' check:innerText='Amount*' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo/bootstrap/vpos/2162/transactions/AuthCapForm/" CvElementArea="2245, 547, 120, 60" CvTextArea="2266, 565, 78, 21" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="2249, 549, 116, 56" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='submit2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='submit2' tag='BUTTON' type='button' class='btn btn-primary mr-3' aaname='Submit' check:innerText='Submit' /&gt;" Guid="003c0b6c-e60d-4a29-8be5-aadc20df5265" InformativeScreenshot="e238203b78784072f1254e5560017ab7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="467.3333333333333,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                  <ui:TextExists FormattedText="{x:Null}" DisplayName="Text Exists 'A'" sap:VirtualizedContainerService.HintSize="467.3333333333333,189.33333333333334" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[outputforTextFound]" Text="[CurrentRow(&quot;VP1&quot;).tostring()]">
+                                    <ui:TextExists.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3587303-b231-4ba3-8b85-6407e5594503" InformativeScreenshot="490db7ff8a8c56e4b0137c3d8a53056c" Selector="&lt;webctrl tag='MAIN' /&gt;">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                        <ui:Target.WaitForReady>
+                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                        </ui:Target.WaitForReady>
+                                      </ui:Target>
+                                    </ui:TextExists.Target>
+                                  </ui:TextExists>
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="467.3333333333333,296" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                                    <ui:CommentOut.Body>
+                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,99.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Output is: &quot; &amp; outputforTextFound]" />
+                                      </Sequence>
+                                    </ui:CommentOut.Body>
+                                  </ui:CommentOut>
+                                  <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467.3333333333333,964.6666666666666" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                                    <ui:IfElseIf.ConditionBlocks>
+                                      <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                                        <ui:IfElseIfBlock BlockType="If" Condition="[outputforTextFound]">
+                                          <ui:IfElseIfBlock.Then>
+                                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,347.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Test Case Passed" />
+                                              <ui:WriteCell Cell="[&quot;A&quot; +(ReadDT.Rows.IndexOf(CurrentRow)+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Sheet1" Text="Pass" WorkbookPath="TestData\VT-CC-Transactions-Demo.xlsx" />
+                                            </Sequence>
+                                          </ui:IfElseIfBlock.Then>
+                                        </ui:IfElseIfBlock>
+                                        <ui:IfElseIfBlock BlockType="Else">
+                                          <ui:IfElseIfBlock.Then>
+                                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,347.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Test Case Failed" />
+                                              <ui:WriteCell Cell="[&quot;A&quot; +(ReadDT.Rows.IndexOf(CurrentRow)+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Sheet1" Text="Fail" WorkbookPath="TestData\VT-CC-Transactions-Demo.xlsx" />
+                                            </Sequence>
+                                          </ui:IfElseIfBlock.Then>
+                                        </ui:IfElseIfBlock>
+                                      </sc:BindingList>
+                                    </ui:IfElseIf.ConditionBlocks>
+                                  </ui:IfElseIf>
+                                  <ui:WriteCell Cell="[&quot;B&quot; +(ReadDT.Rows.IndexOf(CurrentRow)+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="467.3333333333333,148" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="Sheet1" Text="[Now().ToString]" WorkbookPath="TestData\VT-CC-Transactions-Demo.xlsx" />
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvElementArea="2510, 283, 38, 42" CvType="Icon" DesignTimeRectangle="2515, 290, 29, 31" DesignTimeScaleFactor="1.5" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='fa fa-user fa-lg' aaname='' /&gt;" Guid="291c34ff-a382-40ad-ac47-70a8f6b26f80" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAjCAYAAAAaLGNkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAK4SURBVFhH1ZfPa9pgHMb7Z+Tqcbcee+2xx+1P2FEYgodROnZY8FDcQSg7lJVedD15lBWnBBFCEGSzaBdkWX8MxIk6QksobhqevUl8u0S/iRFNt73wQQzv93me9/X9ETfA2sQ0QzLG8FrFQaaE2LNTbMywk6mjcH1L1AUTPsS4h8KbEgTCfJbtIxXDMaHhgx1iYTP7ONmnDf0Q9s9waU7rA5onxGy6PxiQj4uk0SK2jjUYpKYD910Ywmgo2CQMwlFEWh2Tuhbcd0EIHfk0JR4e4bDtOxvcNziEfo44IbwcMmSfRcp9g0OotRV+Co6EXJfQZnDf4BBsPdDCyyE2CW0G9/0PZmIta6KK8h2hzeC+wSHMAXIpSngJMucYktqhQ7BzQqmGOqr92KvdkboW3HdhCGs28kse2RwhYBYsuG+IEAxDg7hLG/khvFAgG4SWC+4bIsRPTEbs07jCQcj1EUt/RMsKMGK1pKYD96VDjG/RkhQ8nY7eHpXO7gD2XJNr989nib2s4qA2cDQGKvam/WK7FaTl7tzxzX3nQxjf8Ja6LxIliEzo/j3B0KGpbZTrbcgXAwyN6aitAZxWsZ2Y14ilm9BcRzj3nQmho5CZL/aQLCGebaDQ7KCj6xjaDNBqqshlq9hJEjUu3Nc79/WEMGryStsxHEWIDWfbcl9XiNWv7dCwn8Xauo6vO0S3gcdUQSRUkP9BhOh8kIjO0RGv6LavK4QJ+YjuHBVC9sJ2doXoI/eK7hwZqQa+e0N8hUh1jJKEgk+eEDef1/DesCwKFE+I3tkD7gxOBe9v/noICSe9f24mcAmRuHAi5XltZmFihPIh0TFCNt9d2c6uEOxL5wGP7YSEPPsbYPt6QphjaJUqtqiitWLdooZt7vi6QjjNhP6lidTrIh6te40ki3iSqUPq/5p6OW1imvgNpT+9zRU8pdgAAAAASUVORK5CYII=" InformativeScreenshot="4e559321a1c86969c45d9caa7bfc2c23.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="467.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="759af983-c358-4d95-a770-a5c8f8591d70" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://demo.velocitypayment.com/admin/imtiazdemo" CvTextArea="2366, 615, 78, 25" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="2368, 607, 76, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' parentid='collapseExample' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' parentid='collapseExample' tag='SPAN' type='' class='align-self-center text-dark-blue mr-3' check:innerText='Logout' /&gt;" Guid="29daed45-a86a-4bb2-b88b-2157f9539bf2" InformativeScreenshot="305896083339b137e955beb609d12d5c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="467.3333333333333,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                </Sequence>
+                              </ActivityAction>
+                            </uix:NApplicationCard.Body>
+                            <uix:NApplicationCard.TargetApp>
+                              <uix:TargetApp Area="1103, 284, 2613, 1677" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" InformativeScreenshot="9962efd889f11fa9d8d7fe29975a6afe.jpg" Selector="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" Title="Velocity Payment System" Url="https://demo.velocitypayment.com/admin/imtiazdemo" />
+                            </uix:NApplicationCard.TargetApp>
+                          </uix:NApplicationCard>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                  </sc:BindingList>
+                </ui:IfElseIf.ConditionBlocks>
+              </ui:IfElseIf>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEachRow.Body>
+      </ui:ForEachRow>
+    </Sequence>
   </Sequence>
 </Activity>

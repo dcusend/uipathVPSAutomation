@@ -255,7 +255,10 @@
     {
       "Path": "Test Cases for Training/VT-SaleTransaction.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "someVariable&Sequence_2",
+        "outputforTextFound&Sequence_2"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
