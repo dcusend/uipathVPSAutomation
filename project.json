@@ -4,6 +4,7 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
     "UiPath.Excel.Activities": "[2.23.0-preview]",
     "UiPath.GSuite.Activities": "[2.4.3]",
     "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
