@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SNYNXFdIMUx2pngZtihjUcC1ljLxSe9qwTfjWPDVnsxhchRmBSRTfX7jj5OpXZGMeCNH7TvyMD6cx/SVYAOgMw==",
+  "dgSpecHash": "8GjNwaSO+7rg81GI3PYiP8NQ8/hmt6DwB4pnRmSj9fLWOmZ1MQS/CQyW++sdLc6MFiByysk4U8NeFvPDFr2lzw==",
   "success": true,
   "projectFilePath": "E:\\UIPath\\VPSAutomation\\.local\\",
   "expectedPackageFiles": [
@@ -95,6 +95,7 @@
     "C:\\Users\\imtiaz\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\reporterforuipath.activities.3.0.1.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\imtiaz\\.nuget\\packages\\runtime.any.system.diagnostics.tools\\4.3.0\\runtime.any.system.diagnostics.tools.4.3.0.nupkg.sha512",

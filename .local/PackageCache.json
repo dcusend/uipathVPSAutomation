@@ -441,6 +441,18 @@
         "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72\\lib/net8.0-windows7.0/VPSLibrary_Expressions_9426669.dll"
       ],
       "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\vpslibrary\\1.0.72"
+    },
+    {
+      "Package": {
+        "Id": "ReporterForUiPath.Activities",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.Activities.Design.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.Activities.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.dll"
+      ],
+      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1"
     }
   ],
   "Conflicts": [],
@@ -1926,6 +1938,11 @@
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
       "Version": "1.8.9",
+      "Dependencies": []
+    },
+    "ReporterForUiPath.Activities": {
+      "Id": "ReporterForUiPath.Activities",
+      "Version": "3.0.1",
       "Dependencies": []
     },
     "RestSharp": {
@@ -6030,6 +6047,18 @@
         "C:\\Users\\imtiaz\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\lib\\netstandard2.0\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\portable.bouncycastle\\1.8.9"
+    },
+    {
+      "Package": {
+        "Id": "ReporterForUiPath.Activities",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.Activities.Design.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.Activities.dll",
+        "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.dll"
+      ],
+      "Path": "C:\\Users\\imtiaz\\.nuget\\packages\\reporterforuipath.activities\\3.0.1"
     },
     {
       "Package": {

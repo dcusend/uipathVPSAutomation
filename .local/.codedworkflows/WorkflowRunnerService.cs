@@ -15,11 +15,11 @@ namespace VPSAutomation
         }
 
         /// <summary>
-        /// Invokes the Sequence-Imtiaz.xaml
+        /// Invokes the Test Cases for Training/VT-SaleTransaction.xaml
         /// </summary>
-        public void Sequence_Imtiaz()
+        public void VT_SaleTransaction()
         {
-            var result = _runWorkflowHandler(@"Sequence-Imtiaz.xaml", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"Test Cases for Training\VT-SaleTransaction.xaml", new Dictionary<string, object>{}, default, default, default);
         }
 
         /// <summary>
@@ -31,6 +31,14 @@ namespace VPSAutomation
         }
 
         /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestObjectRepository.xaml
+        /// </summary>
+        public void TestObjectRepository()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestObjectRepository.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
         /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestLibraryOR.xaml
         /// </summary>
         public void TestLibraryOR(string DesiredBrowser, string Environment)
@@ -39,59 +47,11 @@ namespace VPSAutomation
         }
 
         /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestCase.xaml
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/SetupAndLoginFromLibrary.xaml
         /// </summary>
-        public void Test_Cases_AdminSuite_Virtual_Terminal_TestCase()
+        public void SetupAndLoginFromLibrary(string DesiredBrowser, string Environment)
         {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestCase.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/LoginFromLibrary.xaml
-        /// </summary>
-        public void LoginFromLibrary(string DesiredBrowser, string Environment)
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\LoginFromLibrary.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}, {"Environment", Environment}}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/TestGlobalAssets.xaml
-        /// </summary>
-        public void TestGlobalAssets(string DesiredBrowser)
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestGlobalAssets.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/SuccessfulLogIn.xaml
-        /// </summary>
-        public void SuccessfulLogIn(string DesiredBrowser)
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\SuccessfulLogIn.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Account/TestCaseOne.xaml
-        /// </summary>
-        public void TestCaseOne()
-        {
-            var result = _runWorkflowHandler(@"Account\TestCaseOne.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestSelectors.xaml
-        /// </summary>
-        public void TestSelectors()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestSelectors.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestExcelAccountNumbers.xaml
-        /// </summary>
-        public void TestExcelAccountNumbers()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestExcelAccountNumbers.xaml", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\SetupAndLoginFromLibrary.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}, {"Environment", Environment}}, default, default, default);
         }
 
         /// <summary>
@@ -103,19 +63,11 @@ namespace VPSAutomation
         }
 
         /// <summary>
-        /// Invokes the Test Cases/AdminSuite/TestGetText.xaml
+        /// Invokes the Test Cases/AdminSuite/TestGlobalAssets.xaml
         /// </summary>
-        public void TestGetText()
+        public void TestGlobalAssets(string DesiredBrowser)
         {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestGetText.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/TestExcel.xaml
-        /// </summary>
-        public void TestExcel()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestExcel.xaml", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestGlobalAssets.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}}, default, default, default);
         }
 
         /// <summary>
@@ -132,38 +84,6 @@ namespace VPSAutomation
         public void TestCaseThree()
         {
             var result = _runWorkflowHandler(@"Account\TestCaseThree.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestObjectRepository.xaml
-        /// </summary>
-        public void TestObjectRepository()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestObjectRepository.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestCaseForDemo.xaml
-        /// </summary>
-        public void TestCaseForDemo()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestCaseForDemo.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/SetupAndLoginFromLibrary.xaml
-        /// </summary>
-        public void SetupAndLoginFromLibrary(string DesiredBrowser, string Environment)
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\SetupAndLoginFromLibrary.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}, {"Environment", Environment}}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Test Cases/AdminSuite/TestLibraries.xaml
-        /// </summary>
-        public void TestLibraries()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestLibraries.xaml", new Dictionary<string, object>{}, default, default, default);
         }
 
         /// <summary>
@@ -191,11 +111,19 @@ namespace VPSAutomation
         }
 
         /// <summary>
-        /// Invokes the TestCase.xaml
+        /// Invokes the Account/TestCaseOne.xaml
         /// </summary>
-        public void TestCase()
+        public void TestCaseOne()
         {
-            var result = _runWorkflowHandler(@"TestCase.xaml", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"Account\TestCaseOne.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestSelectors.xaml
+        /// </summary>
+        public void TestSelectors()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestSelectors.xaml", new Dictionary<string, object>{}, default, default, default);
         }
 
         /// <summary>
@@ -207,19 +135,19 @@ namespace VPSAutomation
         }
 
         /// <summary>
-        /// Invokes the Test Cases/Rest/BillLookup-Demo.xaml
-        /// </summary>
-        public void BillLookup_Demo()
-        {
-            var result = _runWorkflowHandler(@"Test Cases\Rest\BillLookup-Demo.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
         /// Invokes the Test Cases/AdminSuite/TestExceptionHandling.xaml
         /// </summary>
         public void TestExceptionHandling()
         {
             var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestExceptionHandling.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/TestExcel.xaml
+        /// </summary>
+        public void TestExcel()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestExcel.xaml", new Dictionary<string, object>{}, default, default, default);
         }
 
         /// <summary>
@@ -236,6 +164,86 @@ namespace VPSAutomation
         public void TestCaseTwo()
         {
             var result = _runWorkflowHandler(@"Account\TestCaseTwo.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the TestCase.xaml
+        /// </summary>
+        public void TestCase()
+        {
+            var result = _runWorkflowHandler(@"TestCase.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestExcelAccountNumbers.xaml
+        /// </summary>
+        public void TestExcelAccountNumbers()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestExcelAccountNumbers.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestCaseForDemo.xaml
+        /// </summary>
+        public void TestCaseForDemo()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestCaseForDemo.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/TestCase.xaml
+        /// </summary>
+        public void Test_Cases_AdminSuite_Virtual_Terminal_TestCase()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\TestCase.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/Virtual Terminal/LoginFromLibrary.xaml
+        /// </summary>
+        public void LoginFromLibrary(string DesiredBrowser, string Environment)
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\Virtual Terminal\LoginFromLibrary.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}, {"Environment", Environment}}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/Rest/BillLookup-Demo.xaml
+        /// </summary>
+        public void BillLookup_Demo()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\Rest\BillLookup-Demo.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/TestLibraries.xaml
+        /// </summary>
+        public void TestLibraries()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestLibraries.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/TestGetText.xaml
+        /// </summary>
+        public void TestGetText()
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\TestGetText.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Test Cases/AdminSuite/SuccessfulLogIn.xaml
+        /// </summary>
+        public void SuccessfulLogIn(string DesiredBrowser)
+        {
+            var result = _runWorkflowHandler(@"Test Cases\AdminSuite\SuccessfulLogIn.xaml", new Dictionary<string, object>{{"DesiredBrowser", DesiredBrowser}}, default, default, default);
+        }
+
+        /// <summary>
+        /// Invokes the Sequence-Imtiaz.xaml
+        /// </summary>
+        public void Sequence_Imtiaz()
+        {
+            var result = _runWorkflowHandler(@"Sequence-Imtiaz.xaml", new Dictionary<string, object>{}, default, default, default);
         }
     }
 }
