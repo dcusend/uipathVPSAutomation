@@ -25,7 +25,7 @@ namespace VPSAutomation
         private Lazy<ConnectionsManager> _connectionsManagerLazy;
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Excel.Activities.API.IExcelService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Core.Activities.API.ISystemService)};
+            _ = new System.Type[]{typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Excel.Activities.API.IExcelService)};
             _workflowRunnerServiceLazy = new Lazy<VPSAutomation.WorkflowRunnerService>(() => new VPSAutomation.WorkflowRunnerService(this.RunWorkflow));
 #pragma warning disable
             _connectionsManagerLazy = new Lazy<ConnectionsManager>(() => new ConnectionsManager(serviceContainer));
