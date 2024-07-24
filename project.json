@@ -4,20 +4,18 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.23.0-preview]",
-    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
-    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.System.Activities": "[24.10.4]",
     "UiPath.Testing.Activities": "[23.10.1]",
-    "UiPath.UIAutomation.Activities": "[23.10.8]",
     "UiPath.WebAPI.Activities": "[1.18.0]",
-    "VPSLibrary": "[1.0.72]"
+    "VPSLibrary": "[1.0.159]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.2.0",
-  "projectVersion": "1.0.165100246",
+  "projectVersion": "1.0.175103294",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -233,6 +231,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases for Training\\VT-SaleTransaction.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4eba29b9-2a81-4f58-bbbf-5258c5889c6e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases for Training\\GuestPay Successfull Payment CC.xaml"
       }
     ],
     "modernBehavior": false,

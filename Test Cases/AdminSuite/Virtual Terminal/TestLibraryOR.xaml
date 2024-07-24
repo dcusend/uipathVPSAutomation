@@ -85,7 +85,6 @@
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
       <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>

@@ -255,8 +255,32 @@
     {
       "Path": "Test Cases for Training/VT-SaleTransaction.xaml",
       "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputTranxSux&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases for Training/Test ABP Chrome.xaml",
+      "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases for Training/GuestPay Successfull Payment CC.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputtextfound&Sequence_1",
+        "readDT&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "outputResult",
+        "argument1"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

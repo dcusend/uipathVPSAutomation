@@ -123,191 +123,6 @@
           }
         }
       },
-      "Google.Apis/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis.Core": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Auth/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0",
-          "Google.Apis.Core": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Calendar.v3/1.55.0.2554": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Core/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Docs.v1/1.55.0.2379": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Docs.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Drive.v3/1.61.0.3082": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0",
-          "Google.Apis.Auth": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.DriveLabels.v2/1.61.0.3079": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.DriveLabels.v2.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Gmail.v1/1.55.0.2510": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Gmail.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.PeopleService.v1/1.55.0.2567": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Script.v1/1.55.0.2555": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Script.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Sheets.v4/1.55.0.2371": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Markdig.Signed/0.31.0": {
         "type": "package",
         "compile": {
@@ -1001,17 +816,14 @@
           }
         }
       },
-      "Microsoft.Management.Infrastructure/2.0.0": {
+      "Microsoft.Management.Infrastructure/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Management.Infrastructure.Runtime.Unix": "2.0.0",
-          "Microsoft.Management.Infrastructure.Runtime.Win": "2.0.0"
+          "Microsoft.Management.Infrastructure.Runtime.Unix": "3.0.0",
+          "Microsoft.Management.Infrastructure.Runtime.Win": "3.0.0"
         },
         "compile": {
           "ref/netstandard1.6/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.6/_._": {}
         }
       },
       "Microsoft.Management.Infrastructure.CimCmdlets/7.2.15": {
@@ -1031,7 +843,7 @@
           }
         }
       },
-      "Microsoft.Management.Infrastructure.Runtime.Unix/2.0.0": {
+      "Microsoft.Management.Infrastructure.Runtime.Unix/3.0.0": {
         "type": "package",
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
@@ -1040,92 +852,36 @@
           }
         }
       },
-      "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
+      "Microsoft.Management.Infrastructure.Runtime.Win/3.0.0": {
         "type": "package",
         "runtimeTargets": {
-          "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
+          "runtimes/win-arm64/lib/netstandard1.6/microsoft.management.infrastructure.dll": {
             "assetType": "runtime",
-            "rid": "win-arm"
+            "rid": "win-arm64"
           },
-          "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
+          "runtimes/win-arm64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
             "assetType": "runtime",
-            "rid": "win-arm"
+            "rid": "win-arm64"
           },
-          "runtimes/win-arm/native/_._": {
+          "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.dll": {
+            "assetType": "runtime",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
+            "assetType": "runtime",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/_._": {
             "assetType": "native",
-            "rid": "win-arm"
+            "rid": "win-x64"
           },
-          "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
+          "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.dll": {
             "assetType": "runtime",
-            "rid": "win-arm64"
+            "rid": "win-x86"
           },
-          "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
+          "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
             "assetType": "runtime",
-            "rid": "win-arm64"
-          },
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x86"
-          },
-          "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x86"
-          },
-          "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win7-x64"
-          },
-          "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win7-x64"
-          },
-          "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win7-x86"
-          },
-          "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win7-x86"
-          },
-          "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win8-x64"
-          },
-          "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win8-x64"
-          },
-          "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win8-x86"
-          },
-          "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win8-x86"
-          },
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win81-x64"
-          },
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win81-x64"
-          },
-          "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "assetType": "runtime",
-            "rid": "win81-x86"
-          },
-          "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "assetType": "runtime",
-            "rid": "win81-x86"
+            "rid": "win-x86"
           }
         }
       },
@@ -1415,11 +1171,11 @@
           }
         }
       },
-      "Microsoft.Win32.Registry/5.0.0": {
+      "Microsoft.Win32.Registry/4.7.0": {
         "type": "package",
         "dependencies": {
-          "System.Security.AccessControl": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
           "ref/netstandard2.0/_._": {
@@ -1432,6 +1188,10 @@
           }
         },
         "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assetType": "runtime",
             "rid": "win"
@@ -1562,27 +1322,6 @@
           }
         }
       },
-      "MimeKit/2.10.0": {
-        "type": "package",
-        "dependencies": {
-          "Portable.BouncyCastle": "1.8.8",
-          "System.Buffers": "4.5.1",
-          "System.Data.DataSetExtensions": "4.5.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
-          "System.Security.Cryptography.Pkcs": "4.7.0",
-          "System.Text.Encoding.CodePages": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/MimeKit.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Namotion.Reflection/2.0.10": {
         "type": "package",
         "dependencies": {
@@ -1688,19 +1427,6 @@
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "NodaTime/2.4.7": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/NodaTime.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -2045,7 +1771,7 @@
           }
         }
       },
-      "System.Activities.ViewModels/1.0.0-20231124.2": {
+      "System.Activities.ViewModels/1.0.0-20240418.6": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -2083,6 +1809,12 @@
           },
           "lib/net6.0-windows7.0/tr/System.Activities.ViewModels.resources.dll": {
             "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/System.Activities.ViewModels.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/System.Activities.ViewModels.resources.dll": {
+            "locale": "zh-TW"
           }
         }
       },
@@ -2264,15 +1996,6 @@
           }
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        }
-      },
       "System.Data.Odbc/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -2393,17 +2116,23 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/5.0.1": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net5.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Diagnostics.EventLog/6.0.0": {
@@ -3366,13 +3095,19 @@
           }
         }
       },
-      "System.Reflection.TypeExtensions/4.4.0": {
+      "System.Reflection.TypeExtensions/4.3.0": {
         "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
         "compile": {
-          "ref/netcoreapp2.0/_._": {}
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/_._": {}
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -4211,17 +3946,20 @@
           }
         }
       },
-      "System.Threading.Tasks.Dataflow/5.0.0": {
+      "System.Threading.Tasks.Dataflow/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {
+          "lib/net6.0/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
@@ -4408,7 +4146,7 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.CodedWorkflows/23.10.4": {
+      "UiPath.CodedWorkflows/24.10.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -4480,7 +4218,7 @@
           "lib/net5.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.Excel.Activities/2.23.0-preview": {
+      "UiPath.Excel.Activities/2.23.4": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.95.4",
@@ -4490,9 +4228,9 @@
           "NPOI": "2.5.5",
           "SharpZipLib": "1.3.3",
           "System.Text.Encoding.CodePages": "6.0.0",
-          "UiPath.CodedWorkflows": "23.10.0",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.2",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -4506,6 +4244,7 @@
           },
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll": {},
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Excel.Activities.ViewModels.dll": {},
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.dll": {
             "related": ".API.xml"
           },
@@ -4621,166 +4360,6 @@
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.Excel.resources.dll": {
             "locale": "zh-TW"
-          }
-        }
-      },
-      "UiPath.GSuite.Activities/2.4.3": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis.Calendar.v3": "1.55.0.2554",
-          "Google.Apis.Docs.v1": "1.55.0.2379",
-          "Google.Apis.Drive.v3": "1.61.0.3082",
-          "Google.Apis.DriveLabels.v2": "1.61.0.3079",
-          "Google.Apis.Gmail.v1": "1.55.0.2510",
-          "Google.Apis.PeopleService.v1": "1.55.0.2567",
-          "Google.Apis.Script.v1": "1.55.0.2555",
-          "Google.Apis.Sheets.v4": "1.55.0.2371",
-          "Microsoft.Win32.Registry": "5.0.0",
-          "MimeKit": "2.10.0",
-          "Newtonsoft.Json": "13.0.3",
-          "NodaTime": "2.4.7",
-          "System.Activities.ViewModels": "1.0.0-20230919.1",
-          "System.ComponentModel.Annotations": "5.0.0",
-          "System.Linq.Async.Queryable": "6.0.1",
-          "System.Security.Cryptography.ProtectedData": "5.0.0",
-          "UiPath.Activities.RuntimeGovernance": "1.1.6",
-          "UiPath.ConnectionClient": "1.4.8",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.5.3"
-        },
-        "compile": {
-          "lib/net6.0-windows7.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows7.0/UiPath.GSuite.Activities.dll": {
-            "related": ".Design.xml;.Package.pdb;.xml"
-          },
-          "lib/net6.0-windows7.0/UiPath.GSuite.dll": {
-            "related": ".Activities.Design.xml;.Activities.Package.pdb;.Activities.xml;.xml"
-          }
-        },
-        "resource": {
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zu"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zu"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.resources.dll": {
-            "locale": "zu"
           }
         }
       },
@@ -5065,11 +4644,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "UiPath.Platform/23.10.0": {
+      "UiPath.OpenTelemetry.Contracts/2.1.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll": {}
+        }
+      },
+      "UiPath.Platform/24.10.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
+          "System.Threading.Tasks.Dataflow": "6.0.0",
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
@@ -5118,7 +4710,7 @@
           }
         }
       },
-      "UiPath.System.Activities/23.12.0-preview": {
+      "UiPath.System.Activities/24.10.4": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5128,15 +4720,16 @@
           "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.VisualBasic": "4.5.0-2.22527.10",
+          "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
-          "System.Activities.ViewModels": "1.0.0-20231124.2",
+          "System.Activities.ViewModels": "1.0.0-20240418.6",
           "System.Management.Automation": "7.2.15",
-          "UiPath.CodedWorkflows": "23.10.2",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.System.Activities.Runtime": "23.12.0-preview",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.3",
+          "UiPath.System.Activities.Runtime": "24.10.4",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5187,10 +4780,10 @@
           }
         }
       },
-      "UiPath.System.Activities.Runtime/23.12.0-preview": {
+      "UiPath.System.Activities.Runtime/24.10.4": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Windows": "23.12.0-preview"
+          "UiPath.System.Activities.Runtime.Windows": "24.10.4"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5199,7 +4792,7 @@
           "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll": {}
         }
       },
-      "UiPath.System.Activities.Runtime.Windows/23.12.0-preview": {
+      "UiPath.System.Activities.Runtime.Windows/24.10.4": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5209,14 +4802,15 @@
           "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.VisualBasic": "4.5.0-2.22527.10",
+          "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.PowerShell.SDK": "7.2.15",
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.2.15",
-          "UiPath.CodedWorkflows": "23.10.2",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.3",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5272,12 +4866,13 @@
           }
         }
       },
-      "UiPath.Telemetry.Client/1.6.69": {
+      "UiPath.Telemetry.Client/2.1.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "System.Threading.Tasks.Dataflow": "5.0.0",
-          "System.ValueTuple": "4.5.0"
+          "System.ValueTuple": "4.5.0",
+          "UiPath.OpenTelemetry.Contracts": "2.1.3"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -5971,50 +5566,39 @@
           }
         }
       },
-      "VPS-OR2.Descriptors/1.0.4": {
+      "VPSLibrary/1.0.159": {
         "type": "package",
         "dependencies": {
+          "UiPath.Excel.Activities": "2.23.4",
+          "UiPath.System.Activities": "24.10.4",
           "UiPath.UIAutomation.Activities": "23.10.8"
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
-      "VPSLibrary/1.0.72": {
-        "type": "package",
-        "dependencies": {
-          "UiPath.Excel.Activities": "2.22.3",
-          "UiPath.System.Activities": "23.10.5",
-          "UiPath.UIAutomation.Activities": "23.10.8",
-          "VPS-OR2.Descriptors": "1.0.4"
         },
         "compile": {
           "lib/net8.0-windows7.0/_._": {}
         },
         "runtime": {
           "lib/net8.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11653880.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12466274.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_13704464.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14000148.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25584554.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_27599521.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_30207987.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31237302.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_32101292.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42941919.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_44956049.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_49794252.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_5568223.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57756343.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59705626.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_62265144.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_7195155.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_9426669.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_1580455.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_16234134.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_19402817.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34788144.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_37209222.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_41026419.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42057031.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_4300233.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_43014496.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46748651.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_47546512.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52215297.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52406342.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_54017281.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_55786688.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57557655.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59666258.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63385262.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_66184201.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_7832273.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_9341730.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -6144,191 +5728,6 @@
         "runtime": {
           "lib/netstandard2.0/ExcelNumberFormat.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Google.Apis/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis.Core": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Auth/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0",
-          "Google.Apis.Core": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Calendar.v3/1.55.0.2554": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Calendar.v3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Core/1.61.0": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Docs.v1/1.55.0.2379": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Docs.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Drive.v3/1.61.0.3082": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0",
-          "Google.Apis.Auth": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.DriveLabels.v2/1.61.0.3079": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.61.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.DriveLabels.v2.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Gmail.v1/1.55.0.2510": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Gmail.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.PeopleService.v1/1.55.0.2567": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Script.v1/1.55.0.2555": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Script.v1.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Sheets.v4/1.55.0.2371": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.55.0",
-          "Google.Apis.Auth": "1.55.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -7025,17 +6424,14 @@
           }
         }
       },
-      "Microsoft.Management.Infrastructure/2.0.0": {
+      "Microsoft.Management.Infrastructure/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Management.Infrastructure.Runtime.Unix": "2.0.0",
-          "Microsoft.Management.Infrastructure.Runtime.Win": "2.0.0"
+          "Microsoft.Management.Infrastructure.Runtime.Unix": "3.0.0",
+          "Microsoft.Management.Infrastructure.Runtime.Win": "3.0.0"
         },
         "compile": {
           "ref/netstandard1.6/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.6/_._": {}
         }
       },
       "Microsoft.Management.Infrastructure.CimCmdlets/7.2.15": {
@@ -7052,11 +6448,18 @@
           "runtimes/win/lib/net6.0/Microsoft.Management.Infrastructure.CimCmdlets.dll": {}
         }
       },
-      "Microsoft.Management.Infrastructure.Runtime.Unix/2.0.0": {
+      "Microsoft.Management.Infrastructure.Runtime.Unix/3.0.0": {
         "type": "package"
       },
-      "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-        "type": "package"
+      "Microsoft.Management.Infrastructure.Runtime.Win/3.0.0": {
+        "type": "package",
+        "runtime": {
+          "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.dll": {},
+          "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/_._": {}
+        }
       },
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
@@ -7301,11 +6704,11 @@
           }
         }
       },
-      "Microsoft.Win32.Registry/5.0.0": {
+      "Microsoft.Win32.Registry/4.7.0": {
         "type": "package",
         "dependencies": {
-          "System.Security.AccessControl": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
           "ref/netstandard2.0/_._": {
@@ -7424,27 +6827,6 @@
           "runtimes/win/lib/net6.0/Microsoft.WSMan.Runtime.dll": {}
         }
       },
-      "MimeKit/2.10.0": {
-        "type": "package",
-        "dependencies": {
-          "Portable.BouncyCastle": "1.8.8",
-          "System.Buffers": "4.5.1",
-          "System.Data.DataSetExtensions": "4.5.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
-          "System.Security.Cryptography.Pkcs": "4.7.0",
-          "System.Text.Encoding.CodePages": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/MimeKit.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Namotion.Reflection/2.0.10": {
         "type": "package",
         "dependencies": {
@@ -7550,19 +6932,6 @@
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "NodaTime/2.4.7": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/NodaTime.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -8085,7 +7454,7 @@
           }
         }
       },
-      "System.Activities.ViewModels/1.0.0-20231124.2": {
+      "System.Activities.ViewModels/1.0.0-20240418.6": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -8123,6 +7492,12 @@
           },
           "lib/net6.0-windows7.0/tr/System.Activities.ViewModels.resources.dll": {
             "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/System.Activities.ViewModels.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/System.Activities.ViewModels.resources.dll": {
+            "locale": "zh-TW"
           }
         }
       },
@@ -8306,15 +7681,6 @@
           }
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        }
-      },
       "System.Data.Odbc/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -8386,17 +7752,23 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/5.0.1": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net5.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Diagnostics.EventLog/6.0.0": {
@@ -9300,13 +8672,19 @@
           }
         }
       },
-      "System.Reflection.TypeExtensions/4.4.0": {
+      "System.Reflection.TypeExtensions/4.3.0": {
         "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
         "compile": {
-          "ref/netcoreapp2.0/_._": {}
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/_._": {}
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -10052,17 +9430,20 @@
           }
         }
       },
-      "System.Threading.Tasks.Dataflow/5.0.0": {
+      "System.Threading.Tasks.Dataflow/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {
+          "lib/net6.0/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
@@ -10244,7 +9625,7 @@
           "lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.CodedWorkflows/23.10.4": {
+      "UiPath.CodedWorkflows/24.10.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -10316,7 +9697,7 @@
           "lib/net5.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.Excel.Activities/2.23.0-preview": {
+      "UiPath.Excel.Activities/2.23.4": {
         "type": "package",
         "dependencies": {
           "ClosedXML": "0.95.4",
@@ -10326,9 +9707,9 @@
           "NPOI": "2.5.5",
           "SharpZipLib": "1.3.3",
           "System.Text.Encoding.CodePages": "6.0.0",
-          "UiPath.CodedWorkflows": "23.10.0",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.2",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -10342,6 +9723,7 @@
           },
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll": {},
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Excel.Activities.ViewModels.dll": {},
           "lib/net6.0-windows7.0/UiPath.Excel.Activities.dll": {
             "related": ".API.xml"
           },
@@ -10457,166 +9839,6 @@
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.Excel.resources.dll": {
             "locale": "zh-TW"
-          }
-        }
-      },
-      "UiPath.GSuite.Activities/2.4.3": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis.Calendar.v3": "1.55.0.2554",
-          "Google.Apis.Docs.v1": "1.55.0.2379",
-          "Google.Apis.Drive.v3": "1.61.0.3082",
-          "Google.Apis.DriveLabels.v2": "1.61.0.3079",
-          "Google.Apis.Gmail.v1": "1.55.0.2510",
-          "Google.Apis.PeopleService.v1": "1.55.0.2567",
-          "Google.Apis.Script.v1": "1.55.0.2555",
-          "Google.Apis.Sheets.v4": "1.55.0.2371",
-          "Microsoft.Win32.Registry": "5.0.0",
-          "MimeKit": "2.10.0",
-          "Newtonsoft.Json": "13.0.3",
-          "NodaTime": "2.4.7",
-          "System.Activities.ViewModels": "1.0.0-20230919.1",
-          "System.ComponentModel.Annotations": "5.0.0",
-          "System.Linq.Async.Queryable": "6.0.1",
-          "System.Security.Cryptography.ProtectedData": "5.0.0",
-          "UiPath.Activities.RuntimeGovernance": "1.1.6",
-          "UiPath.ConnectionClient": "1.4.8",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.5.3"
-        },
-        "compile": {
-          "lib/net6.0-windows7.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows7.0/UiPath.GSuite.Activities.dll": {
-            "related": ".Design.xml;.Package.pdb;.xml"
-          },
-          "lib/net6.0-windows7.0/UiPath.GSuite.dll": {
-            "related": ".Activities.Design.xml;.Activities.Package.pdb;.Activities.xml;.xml"
-          }
-        },
-        "resource": {
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/de/UiPath.GSuite.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/es/UiPath.GSuite.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/fr/UiPath.GSuite.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ja/UiPath.GSuite.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/ko/UiPath.GSuite.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/pt/UiPath.GSuite.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/ru/UiPath.GSuite.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/tr/UiPath.GSuite.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.Design.resources.dll": {
-            "locale": "zu"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.resources.dll": {
-            "locale": "zu"
-          },
-          "lib/net6.0-windows7.0/zu/UiPath.GSuite.resources.dll": {
-            "locale": "zu"
           }
         }
       },
@@ -10901,11 +10123,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "UiPath.Platform/23.10.0": {
+      "UiPath.OpenTelemetry.Contracts/2.1.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll": {}
+        }
+      },
+      "UiPath.Platform/24.10.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
+          "System.Threading.Tasks.Dataflow": "6.0.0",
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
@@ -10954,7 +10189,7 @@
           }
         }
       },
-      "UiPath.System.Activities/23.12.0-preview": {
+      "UiPath.System.Activities/24.10.4": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -10964,15 +10199,16 @@
           "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.VisualBasic": "4.5.0-2.22527.10",
+          "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
-          "System.Activities.ViewModels": "1.0.0-20231124.2",
+          "System.Activities.ViewModels": "1.0.0-20240418.6",
           "System.Management.Automation": "7.2.15",
-          "UiPath.CodedWorkflows": "23.10.2",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.System.Activities.Runtime": "23.12.0-preview",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.3",
+          "UiPath.System.Activities.Runtime": "24.10.4",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11023,10 +10259,10 @@
           }
         }
       },
-      "UiPath.System.Activities.Runtime/23.12.0-preview": {
+      "UiPath.System.Activities.Runtime/24.10.4": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Windows": "23.12.0-preview"
+          "UiPath.System.Activities.Runtime.Windows": "24.10.4"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11035,7 +10271,7 @@
           "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll": {}
         }
       },
-      "UiPath.System.Activities.Runtime.Windows/23.12.0-preview": {
+      "UiPath.System.Activities.Runtime.Windows/24.10.4": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -11045,14 +10281,15 @@
           "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.VisualBasic": "4.5.0-2.22527.10",
+          "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.PowerShell.SDK": "7.2.15",
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.2.15",
-          "UiPath.CodedWorkflows": "23.10.2",
-          "UiPath.Platform": "23.10.0",
-          "UiPath.Telemetry.Client": "1.6.69"
+          "UiPath.CodedWorkflows": "24.10.0",
+          "UiPath.Platform": "24.10.3",
+          "UiPath.Telemetry.Client": "2.1.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11108,12 +10345,13 @@
           }
         }
       },
-      "UiPath.Telemetry.Client/1.6.69": {
+      "UiPath.Telemetry.Client/2.1.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "System.Threading.Tasks.Dataflow": "5.0.0",
-          "System.ValueTuple": "4.5.0"
+          "System.ValueTuple": "4.5.0",
+          "UiPath.OpenTelemetry.Contracts": "2.1.3"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -11807,50 +11045,39 @@
           }
         }
       },
-      "VPS-OR2.Descriptors/1.0.4": {
+      "VPSLibrary/1.0.159": {
         "type": "package",
         "dependencies": {
+          "UiPath.Excel.Activities": "2.23.4",
+          "UiPath.System.Activities": "24.10.4",
           "UiPath.UIAutomation.Activities": "23.10.8"
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
-      "VPSLibrary/1.0.72": {
-        "type": "package",
-        "dependencies": {
-          "UiPath.Excel.Activities": "2.22.3",
-          "UiPath.System.Activities": "23.10.5",
-          "UiPath.UIAutomation.Activities": "23.10.8",
-          "VPS-OR2.Descriptors": "1.0.4"
         },
         "compile": {
           "lib/net8.0-windows7.0/_._": {}
         },
         "runtime": {
           "lib/net8.0-windows7.0/VPSLibrary.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_11653880.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_12466274.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_13704464.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_14000148.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_25584554.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_27599521.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_30207987.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_31237302.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_32101292.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42941919.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_44956049.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_49794252.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_5568223.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57756343.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59705626.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_62265144.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_7195155.dll": {},
-          "lib/net8.0-windows7.0/VPSLibrary_Expressions_9426669.dll": {}
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_1580455.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_16234134.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_19402817.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_34788144.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_37209222.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_41026419.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_42057031.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_4300233.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_43014496.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_46748651.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_47546512.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52215297.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_52406342.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_54017281.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_55786688.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_57557655.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_59666258.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_63385262.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_66184201.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_7832273.dll": {},
+          "lib/net8.0-windows7.0/VPSLibrary_Expressions_9341730.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -12002,292 +11229,6 @@
         "lib/netstandard1.0/ExcelNumberFormat.xml",
         "lib/netstandard2.0/ExcelNumberFormat.dll",
         "lib/netstandard2.0/ExcelNumberFormat.xml"
-      ]
-    },
-    "Google.Apis/1.61.0": {
-      "sha512": "KUVqG6MRC7E8anPOLefqb+wnDeIS6IJ1B09GaXg07vAHGVnGxJ8odAtpnCQCN3aUzao3gFnSSEKawDvFrJpYZQ==",
-      "type": "package",
-      "path": "google.apis/1.61.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.1.61.0.nupkg.sha512",
-        "google.apis.nuspec",
-        "lib/net45/Google.Apis.PlatformServices.dll",
-        "lib/net45/Google.Apis.dll",
-        "lib/net45/Google.Apis.pdb",
-        "lib/net45/Google.Apis.xml",
-        "lib/netstandard1.3/Google.Apis.dll",
-        "lib/netstandard1.3/Google.Apis.pdb",
-        "lib/netstandard1.3/Google.Apis.xml",
-        "lib/netstandard2.0/Google.Apis.dll",
-        "lib/netstandard2.0/Google.Apis.pdb",
-        "lib/netstandard2.0/Google.Apis.xml"
-      ]
-    },
-    "Google.Apis.Auth/1.61.0": {
-      "sha512": "1tXnTa9WaimJdlrIyHnhjjgFX6fQ1r4ClWqlK9ZYF5YPyswG1GbWhhlPyQg615BnHSulmRINlXIi8AbGJsc1yQ==",
-      "type": "package",
-      "path": "google.apis.auth/1.61.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.auth.1.61.0.nupkg.sha512",
-        "google.apis.auth.nuspec",
-        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "lib/net45/Google.Apis.Auth.dll",
-        "lib/net45/Google.Apis.Auth.pdb",
-        "lib/net45/Google.Apis.Auth.xml",
-        "lib/net461/Google.Apis.Auth.PlatformServices.dll",
-        "lib/net461/Google.Apis.Auth.dll",
-        "lib/net461/Google.Apis.Auth.pdb",
-        "lib/net461/Google.Apis.Auth.xml",
-        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
-        "lib/netstandard1.3/Google.Apis.Auth.dll",
-        "lib/netstandard1.3/Google.Apis.Auth.pdb",
-        "lib/netstandard1.3/Google.Apis.Auth.xml",
-        "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
-        "lib/netstandard2.0/Google.Apis.Auth.dll",
-        "lib/netstandard2.0/Google.Apis.Auth.pdb",
-        "lib/netstandard2.0/Google.Apis.Auth.xml"
-      ]
-    },
-    "Google.Apis.Calendar.v3/1.55.0.2554": {
-      "sha512": "NG3KDTrOpTcRcEvv/7Lu5z7EWowDcgX4rj+lEHkGi8mdsSySBUS/UNhcKLH4k/p4WPGBZPYhRg3KpaE7cGSBOg==",
-      "type": "package",
-      "path": "google.apis.calendar.v3/1.55.0.2554",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.calendar.v3.1.55.0.2554.nupkg.sha512",
-        "google.apis.calendar.v3.nuspec",
-        "lib/net40/Google.Apis.Calendar.v3.dll",
-        "lib/net40/Google.Apis.Calendar.v3.pdb",
-        "lib/net40/Google.Apis.Calendar.v3.xml",
-        "lib/net45/Google.Apis.Calendar.v3.dll",
-        "lib/net45/Google.Apis.Calendar.v3.pdb",
-        "lib/net45/Google.Apis.Calendar.v3.xml",
-        "lib/netstandard1.0/Google.Apis.Calendar.v3.dll",
-        "lib/netstandard1.0/Google.Apis.Calendar.v3.pdb",
-        "lib/netstandard1.0/Google.Apis.Calendar.v3.xml",
-        "lib/netstandard1.3/Google.Apis.Calendar.v3.dll",
-        "lib/netstandard1.3/Google.Apis.Calendar.v3.pdb",
-        "lib/netstandard1.3/Google.Apis.Calendar.v3.xml",
-        "lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
-        "lib/netstandard2.0/Google.Apis.Calendar.v3.pdb",
-        "lib/netstandard2.0/Google.Apis.Calendar.v3.xml"
-      ]
-    },
-    "Google.Apis.Core/1.61.0": {
-      "sha512": "/COXAFLc1SrLDZl7Ahhi0ZyNHM6ADvdd73UjIPXr1MRubHTrBgvdfwoTrCL0C8C6w0ur/RIR1RHUR5orSJozGg==",
-      "type": "package",
-      "path": "google.apis.core/1.61.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.core.1.61.0.nupkg.sha512",
-        "google.apis.core.nuspec",
-        "lib/net45/Google.Apis.Core.dll",
-        "lib/net45/Google.Apis.Core.pdb",
-        "lib/net45/Google.Apis.Core.xml",
-        "lib/netstandard1.3/Google.Apis.Core.dll",
-        "lib/netstandard1.3/Google.Apis.Core.pdb",
-        "lib/netstandard1.3/Google.Apis.Core.xml",
-        "lib/netstandard2.0/Google.Apis.Core.dll",
-        "lib/netstandard2.0/Google.Apis.Core.pdb",
-        "lib/netstandard2.0/Google.Apis.Core.xml"
-      ]
-    },
-    "Google.Apis.Docs.v1/1.55.0.2379": {
-      "sha512": "3Hy4/T8s2PXBLcK+YFcSO5ZPPwq7K/5ayYOrYj99mZIW/gCLDDNGLoYGiWmFexU9b45gYJazHjHBWkNBwUyxcQ==",
-      "type": "package",
-      "path": "google.apis.docs.v1/1.55.0.2379",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.docs.v1.1.55.0.2379.nupkg.sha512",
-        "google.apis.docs.v1.nuspec",
-        "lib/net40/Google.Apis.Docs.v1.dll",
-        "lib/net40/Google.Apis.Docs.v1.pdb",
-        "lib/net40/Google.Apis.Docs.v1.xml",
-        "lib/net45/Google.Apis.Docs.v1.dll",
-        "lib/net45/Google.Apis.Docs.v1.pdb",
-        "lib/net45/Google.Apis.Docs.v1.xml",
-        "lib/netstandard1.0/Google.Apis.Docs.v1.dll",
-        "lib/netstandard1.0/Google.Apis.Docs.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.Docs.v1.xml",
-        "lib/netstandard1.3/Google.Apis.Docs.v1.dll",
-        "lib/netstandard1.3/Google.Apis.Docs.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.Docs.v1.xml",
-        "lib/netstandard2.0/Google.Apis.Docs.v1.dll",
-        "lib/netstandard2.0/Google.Apis.Docs.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.Docs.v1.xml"
-      ]
-    },
-    "Google.Apis.Drive.v3/1.61.0.3082": {
-      "sha512": "juTHdlqYY9u++qqlCx8GwvrHb0hPN6az/q8BgIpMiFwfCHBOxUO4d9UbPfF/bpw+eOIPwH5EjZ90zkz2ZJZS0Q==",
-      "type": "package",
-      "path": "google.apis.drive.v3/1.61.0.3082",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.drive.v3.1.61.0.3082.nupkg.sha512",
-        "google.apis.drive.v3.nuspec",
-        "lib/net45/Google.Apis.Drive.v3.dll",
-        "lib/net45/Google.Apis.Drive.v3.pdb",
-        "lib/net45/Google.Apis.Drive.v3.xml",
-        "lib/netstandard1.3/Google.Apis.Drive.v3.dll",
-        "lib/netstandard1.3/Google.Apis.Drive.v3.pdb",
-        "lib/netstandard1.3/Google.Apis.Drive.v3.xml",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.dll",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.pdb",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.xml"
-      ]
-    },
-    "Google.Apis.DriveLabels.v2/1.61.0.3079": {
-      "sha512": "D51dKbK1e9Zj/7Zm/cXCaIcJy0EgTpTrvq4pFD0TY/4rsMyLcSpoJgmoOz+BfqbKsYG/DvKIlZuADykizZyWRw==",
-      "type": "package",
-      "path": "google.apis.drivelabels.v2/1.61.0.3079",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.drivelabels.v2.1.61.0.3079.nupkg.sha512",
-        "google.apis.drivelabels.v2.nuspec",
-        "lib/net45/Google.Apis.DriveLabels.v2.dll",
-        "lib/net45/Google.Apis.DriveLabels.v2.pdb",
-        "lib/net45/Google.Apis.DriveLabels.v2.xml",
-        "lib/netstandard1.3/Google.Apis.DriveLabels.v2.dll",
-        "lib/netstandard1.3/Google.Apis.DriveLabels.v2.pdb",
-        "lib/netstandard1.3/Google.Apis.DriveLabels.v2.xml",
-        "lib/netstandard2.0/Google.Apis.DriveLabels.v2.dll",
-        "lib/netstandard2.0/Google.Apis.DriveLabels.v2.pdb",
-        "lib/netstandard2.0/Google.Apis.DriveLabels.v2.xml"
-      ]
-    },
-    "Google.Apis.Gmail.v1/1.55.0.2510": {
-      "sha512": "v02auXJYDfDKQJ/imX0H1UZDuC3pVYMM8XNNVvm4QfUFv0a1cipTEdXYKjG7WTpPgUVrwgjPWWsl3yvsa+aXEw==",
-      "type": "package",
-      "path": "google.apis.gmail.v1/1.55.0.2510",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.gmail.v1.1.55.0.2510.nupkg.sha512",
-        "google.apis.gmail.v1.nuspec",
-        "lib/net40/Google.Apis.Gmail.v1.dll",
-        "lib/net40/Google.Apis.Gmail.v1.pdb",
-        "lib/net40/Google.Apis.Gmail.v1.xml",
-        "lib/net45/Google.Apis.Gmail.v1.dll",
-        "lib/net45/Google.Apis.Gmail.v1.pdb",
-        "lib/net45/Google.Apis.Gmail.v1.xml",
-        "lib/netstandard1.0/Google.Apis.Gmail.v1.dll",
-        "lib/netstandard1.0/Google.Apis.Gmail.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.Gmail.v1.xml",
-        "lib/netstandard1.3/Google.Apis.Gmail.v1.dll",
-        "lib/netstandard1.3/Google.Apis.Gmail.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.Gmail.v1.xml",
-        "lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
-        "lib/netstandard2.0/Google.Apis.Gmail.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.Gmail.v1.xml"
-      ]
-    },
-    "Google.Apis.PeopleService.v1/1.55.0.2567": {
-      "sha512": "PUAnTo8YygdQow1eUd67stnCyyj7wQHhiKPBRCiVjvh1xwZRC0uiLTIjcHPFQi3JhoIumcSHCyGdIXGbgsGM5g==",
-      "type": "package",
-      "path": "google.apis.peopleservice.v1/1.55.0.2567",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.peopleservice.v1.1.55.0.2567.nupkg.sha512",
-        "google.apis.peopleservice.v1.nuspec",
-        "lib/net40/Google.Apis.PeopleService.v1.dll",
-        "lib/net40/Google.Apis.PeopleService.v1.pdb",
-        "lib/net40/Google.Apis.PeopleService.v1.xml",
-        "lib/net45/Google.Apis.PeopleService.v1.dll",
-        "lib/net45/Google.Apis.PeopleService.v1.pdb",
-        "lib/net45/Google.Apis.PeopleService.v1.xml",
-        "lib/netstandard1.0/Google.Apis.PeopleService.v1.dll",
-        "lib/netstandard1.0/Google.Apis.PeopleService.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.PeopleService.v1.xml",
-        "lib/netstandard1.3/Google.Apis.PeopleService.v1.dll",
-        "lib/netstandard1.3/Google.Apis.PeopleService.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.PeopleService.v1.xml",
-        "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
-        "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
-      ]
-    },
-    "Google.Apis.Script.v1/1.55.0.2555": {
-      "sha512": "hF9PASyC98dgeJ6XlLYXMGNQg3RzEn7op3HwXy14aC/C3Ziisu3Whtx8sqxO7qt1PuRXKizhBiFlIMP9RyRZiw==",
-      "type": "package",
-      "path": "google.apis.script.v1/1.55.0.2555",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.script.v1.1.55.0.2555.nupkg.sha512",
-        "google.apis.script.v1.nuspec",
-        "lib/net40/Google.Apis.Script.v1.dll",
-        "lib/net40/Google.Apis.Script.v1.pdb",
-        "lib/net40/Google.Apis.Script.v1.xml",
-        "lib/net45/Google.Apis.Script.v1.dll",
-        "lib/net45/Google.Apis.Script.v1.pdb",
-        "lib/net45/Google.Apis.Script.v1.xml",
-        "lib/netstandard1.0/Google.Apis.Script.v1.dll",
-        "lib/netstandard1.0/Google.Apis.Script.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.Script.v1.xml",
-        "lib/netstandard1.3/Google.Apis.Script.v1.dll",
-        "lib/netstandard1.3/Google.Apis.Script.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.Script.v1.xml",
-        "lib/netstandard2.0/Google.Apis.Script.v1.dll",
-        "lib/netstandard2.0/Google.Apis.Script.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.Script.v1.xml"
-      ]
-    },
-    "Google.Apis.Sheets.v4/1.55.0.2371": {
-      "sha512": "2CCsbvYYbww7WyN8Bmh51srGGQz4vEzQXHU3BxauvfpXdoHz5V1IqDQ9SqfsECG/bPicfSKVw+FYY5bEb+quYg==",
-      "type": "package",
-      "path": "google.apis.sheets.v4/1.55.0.2371",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.sheets.v4.1.55.0.2371.nupkg.sha512",
-        "google.apis.sheets.v4.nuspec",
-        "lib/net40/Google.Apis.Sheets.v4.dll",
-        "lib/net40/Google.Apis.Sheets.v4.pdb",
-        "lib/net40/Google.Apis.Sheets.v4.xml",
-        "lib/net45/Google.Apis.Sheets.v4.dll",
-        "lib/net45/Google.Apis.Sheets.v4.pdb",
-        "lib/net45/Google.Apis.Sheets.v4.xml",
-        "lib/netstandard1.0/Google.Apis.Sheets.v4.dll",
-        "lib/netstandard1.0/Google.Apis.Sheets.v4.pdb",
-        "lib/netstandard1.0/Google.Apis.Sheets.v4.xml",
-        "lib/netstandard1.3/Google.Apis.Sheets.v4.dll",
-        "lib/netstandard1.3/Google.Apis.Sheets.v4.pdb",
-        "lib/netstandard1.3/Google.Apis.Sheets.v4.xml",
-        "lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
-        "lib/netstandard2.0/Google.Apis.Sheets.v4.pdb",
-        "lib/netstandard2.0/Google.Apis.Sheets.v4.xml"
       ]
     },
     "Markdig.Signed/0.31.0": {
@@ -13328,15 +12269,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.Management.Infrastructure/2.0.0": {
-      "sha512": "IaKZRNBBv3sdrmBWd+aqwHq8cVHk/3WgWFAN/dt40MRY9rbtHiDfTTmaEN0tGTmQqGCGDo/ncntA8MvFMvcsRw==",
+    "Microsoft.Management.Infrastructure/3.0.0": {
+      "sha512": "cGZi0q5IujCTVYKo9h22Pw+UwfZDV82HXO8HTxMG2HqntPlT3Ls8jY6punLp4YzCypJNpfCAu2kae3TIyuAiJw==",
       "type": "package",
-      "path": "microsoft.management.infrastructure/2.0.0",
+      "path": "microsoft.management.infrastructure/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netstandard1.6/_._",
-        "microsoft.management.infrastructure.2.0.0.nupkg.sha512",
+        "_manifest/spdx_2.2/bsi.json",
+        "_manifest/spdx_2.2/manifest.cat",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "microsoft.management.infrastructure.3.0.0.nupkg.sha512",
         "microsoft.management.infrastructure.nuspec",
         "ref/net451/Microsoft.Management.Infrastructure.Native.dll",
         "ref/net451/Microsoft.Management.Infrastructure.dll",
@@ -13363,95 +12307,51 @@
         "runtimes/win/lib/net6.0/Microsoft.Management.Infrastructure.CimCmdlets.dll"
       ]
     },
-    "Microsoft.Management.Infrastructure.Runtime.Unix/2.0.0": {
-      "sha512": "p0lslMX5bdWLxO2P7ao+rjAMOB0LEwPYpzvdCQ2OEYgX2NxFpQ8ILvqPGnYlTAb53rT8gu5DyIol1HboHFYfxQ==",
+    "Microsoft.Management.Infrastructure.Runtime.Unix/3.0.0": {
+      "sha512": "QZE3uEDvZ0m7LabQvcmNOYHp7v1QPBVMpB/ild0WEE8zqUVAP5y9rRI5we37ImI1bQmW5pZ+3HNC70POPm0jBQ==",
       "type": "package",
-      "path": "microsoft.management.infrastructure.runtime.unix/2.0.0",
+      "path": "microsoft.management.infrastructure.runtime.unix/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.management.infrastructure.runtime.unix.2.0.0.nupkg.sha512",
+        "_manifest/spdx_2.2/bsi.json",
+        "_manifest/spdx_2.2/manifest.cat",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "microsoft.management.infrastructure.runtime.unix.3.0.0.nupkg.sha512",
         "microsoft.management.infrastructure.runtime.unix.nuspec",
-        "runtimes/unix/lib/net451/_._",
         "runtimes/unix/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll"
       ]
     },
-    "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-      "sha512": "vjBWQeDOjgernkrOdbEgn7M70SF7hof7ORdKPSlL06Uc15+oYdth5dZju9KsgUoti/cwnkZTiwtDx/lRtay0sA==",
+    "Microsoft.Management.Infrastructure.Runtime.Win/3.0.0": {
+      "sha512": "uwMyWN33+iQ8Wm/n1yoPXgFoiYNd0HzJyoqSVhaQZyJfaQrJR3udgcIHjqa1qbc3lS6kvfuUMN4TrF4U4refCQ==",
       "type": "package",
-      "path": "microsoft.management.infrastructure.runtime.win/2.0.0",
+      "path": "microsoft.management.infrastructure.runtime.win/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "microsoft.management.infrastructure.runtime.win.2.0.0.nupkg.sha512",
+        "_manifest/spdx_2.2/bsi.json",
+        "_manifest/spdx_2.2/manifest.cat",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "microsoft.management.infrastructure.runtime.win.3.0.0.nupkg.sha512",
         "microsoft.management.infrastructure.runtime.win.nuspec",
-        "runtimes/win-arm/lib/net451/_._",
-        "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win-arm/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win-arm/native/mi.dll",
-        "runtimes/win-arm/native/miutils.dll",
-        "runtimes/win-arm64/lib/net451/_._",
-        "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win-arm64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win-arm64/native/mi.dll",
-        "runtimes/win-arm64/native/miutils.dll",
-        "runtimes/win10-x64/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win10-x64/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win10-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win10-x64/native/mi.dll",
-        "runtimes/win10-x64/native/miutils.dll",
-        "runtimes/win10-x86/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win10-x86/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win10-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win10-x86/native/mi.dll",
-        "runtimes/win10-x86/native/miutils.dll",
-        "runtimes/win7-x64/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win7-x64/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win7-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win7-x64/native/mi.dll",
-        "runtimes/win7-x64/native/miutils.dll",
-        "runtimes/win7-x86/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win7-x86/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win7-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win7-x86/native/mi.dll",
-        "runtimes/win7-x86/native/miutils.dll",
-        "runtimes/win8-x64/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win8-x64/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win8-x64/native/mi.dll",
-        "runtimes/win8-x64/native/miutils.dll",
-        "runtimes/win8-x86/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win8-x86/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win8-x86/native/mi.dll",
-        "runtimes/win8-x86/native/miutils.dll",
-        "runtimes/win81-x64/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win81-x64/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win81-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win81-x64/native/mi.dll",
-        "runtimes/win81-x64/native/miutils.dll",
-        "runtimes/win81-x86/lib/net451/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win81-x86/lib/net451/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
-        "runtimes/win81-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll",
-        "runtimes/win81-x86/native/mi.dll",
-        "runtimes/win81-x86/native/miutils.dll"
+        "runtimes/win-arm64/lib/net451/microsoft.management.infrastructure.dll",
+        "runtimes/win-arm64/lib/net451/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-arm64/lib/netstandard1.6/microsoft.management.infrastructure.dll",
+        "runtimes/win-arm64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-arm64/native/microsoft.management.infrastructure.native.unmanaged.dll",
+        "runtimes/win-x64/lib/net451/microsoft.management.infrastructure.dll",
+        "runtimes/win-x64/lib/net451/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.dll",
+        "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-x64/native/microsoft.management.infrastructure.native.unmanaged.dll",
+        "runtimes/win-x86/lib/net451/microsoft.management.infrastructure.dll",
+        "runtimes/win-x86/lib/net451/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.dll",
+        "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.native.dll",
+        "runtimes/win-x86/native/microsoft.management.infrastructure.native.unmanaged.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
@@ -14009,14 +12909,13 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Win32.Registry/5.0.0": {
-      "sha512": "dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "type": "package",
-      "path": "microsoft.win32.registry/5.0.0",
+      "path": "microsoft.win32.registry/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net46/Microsoft.Win32.Registry.dll",
@@ -14025,11 +12924,13 @@
         "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
         "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
-        "microsoft.win32.registry.5.0.0.nupkg.sha512",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
         "microsoft.win32.registry.nuspec",
         "ref/net46/Microsoft.Win32.Registry.dll",
         "ref/net461/Microsoft.Win32.Registry.dll",
         "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
         "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
         "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
         "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
@@ -14043,6 +12944,8 @@
         "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
         "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
         "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
         "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
         "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
@@ -14166,33 +13069,6 @@
         "runtimes/win/lib/net6.0/Microsoft.WSMan.Runtime.dll"
       ]
     },
-    "MimeKit/2.10.0": {
-      "sha512": "AHbCxNo6Ue98q/r81TKdCisRJSOv5EF0PWctUqhtzjDJx3xeTxguxZHyZy3ATbHfHFDRVR7TeZgmsfRP7dXs6g==",
-      "type": "package",
-      "path": "mimekit/2.10.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icons/mimekit-50.png",
-        "lib/net45/MimeKit.dll",
-        "lib/net45/MimeKit.pdb",
-        "lib/net45/MimeKit.xml",
-        "lib/net46/MimeKit.dll",
-        "lib/net46/MimeKit.pdb",
-        "lib/net46/MimeKit.xml",
-        "lib/net47/MimeKit.dll",
-        "lib/net47/MimeKit.pdb",
-        "lib/net47/MimeKit.xml",
-        "lib/net48/MimeKit.dll",
-        "lib/net48/MimeKit.pdb",
-        "lib/net48/MimeKit.xml",
-        "lib/netstandard2.0/MimeKit.dll",
-        "lib/netstandard2.0/MimeKit.pdb",
-        "lib/netstandard2.0/MimeKit.xml",
-        "mimekit.2.10.0.nupkg.sha512",
-        "mimekit.nuspec"
-      ]
-    },
     "Namotion.Reflection/2.0.10": {
       "sha512": "KHndyscosup/AnzMQLzW0g6+z0h2NCmTyW9hnEL/T/ZkiUIQWBA1RadYgUT+dXuMORmQI/BXm+DXYySWwq8h0Q==",
       "type": "package",
@@ -14306,26 +13182,6 @@
         "lib/xamarinios10/NLog.xml",
         "nlog.4.5.11.nupkg.sha512",
         "nlog.nuspec"
-      ]
-    },
-    "NodaTime/2.4.7": {
-      "sha512": "qXOjY8467lqeOLDOZa7TmHL4jvlMDz9xcQuMXgXW7fvVXJNMx1Z6DBVozK+FMzH4eHscccfpgJmv8ua9s8mtbA==",
-      "type": "package",
-      "path": "nodatime/2.4.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/NodaTime.dll",
-        "lib/net45/NodaTime.pdb",
-        "lib/net45/NodaTime.xml",
-        "lib/netstandard1.3/NodaTime.dll",
-        "lib/netstandard1.3/NodaTime.pdb",
-        "lib/netstandard1.3/NodaTime.xml",
-        "lib/netstandard2.0/NodaTime.dll",
-        "lib/netstandard2.0/NodaTime.pdb",
-        "lib/netstandard2.0/NodaTime.xml",
-        "nodatime.2.4.7.nupkg.sha512",
-        "nodatime.nuspec"
       ]
     },
     "NPOI/2.5.5": {
@@ -15399,10 +14255,10 @@
         "sharpziplib.nuspec"
       ]
     },
-    "System.Activities.ViewModels/1.0.0-20231124.2": {
-      "sha512": "P5Jg8Qfk7Td3eyjSTSm0ZLST2DDlxMq/4Cj3doNn8oAITUcFrQ1R867CXlNJo/m+RSmQL1qzzeRczkU2xXaY6g==",
+    "System.Activities.ViewModels/1.0.0-20240418.6": {
+      "sha512": "MU2uD1jNA5zF7HFqh8y4+qkIinAPLp0qmkEKiwXhCTmOWW2kVwblJS5Ryw4WJQl9kH0VZy4N1ynO1b2zEMh9DA==",
       "type": "package",
-      "path": "system.activities.viewmodels/1.0.0-20231124.2",
+      "path": "system.activities.viewmodels/1.0.0-20240418.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -15417,6 +14273,8 @@
         "lib/net6.0-windows7.0/pt/System.Activities.ViewModels.resources.dll",
         "lib/net6.0-windows7.0/ru/System.Activities.ViewModels.resources.dll",
         "lib/net6.0-windows7.0/tr/System.Activities.ViewModels.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/System.Activities.ViewModels.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/System.Activities.ViewModels.resources.dll",
         "lib/net6.0/System.Activities.ViewModels.dll",
         "lib/net6.0/de/System.Activities.ViewModels.resources.dll",
         "lib/net6.0/es-MX/System.Activities.ViewModels.resources.dll",
@@ -15428,7 +14286,9 @@
         "lib/net6.0/pt/System.Activities.ViewModels.resources.dll",
         "lib/net6.0/ru/System.Activities.ViewModels.resources.dll",
         "lib/net6.0/tr/System.Activities.ViewModels.resources.dll",
-        "system.activities.viewmodels.1.0.0-20231124.2.nupkg.sha512",
+        "lib/net6.0/zh-CN/System.Activities.ViewModels.resources.dll",
+        "lib/net6.0/zh-TW/System.Activities.ViewModels.resources.dll",
+        "system.activities.viewmodels.1.0.0-20240418.6.nupkg.sha512",
         "system.activities.viewmodels.nuspec"
       ]
     },
@@ -15899,25 +14759,6 @@
         "system.console.nuspec"
       ]
     },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "type": "package",
-      "path": "system.data.datasetextensions/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/_._",
-        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "ref/net45/_._",
-        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "system.data.datasetextensions.4.5.0.nupkg.sha512",
-        "system.data.datasetextensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Data.Odbc/6.0.1": {
       "sha512": "4vl7z0b8gcwc2NotcpEkqaLVQAw/wo46zV1uVSoIx2UfJdqlxWKD3ViUicCNJGo41th4kaGcY9kyVe2q9EuB4w==",
       "type": "package",
@@ -16152,32 +14993,29 @@
         "system.diagnostics.debug.nuspec"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/5.0.1": {
-      "sha512": "uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/5.0.1",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
-        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net461/System.Diagnostics.DiagnosticSource.xml",
         "lib/net5.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/net5.0/System.Diagnostics.DiagnosticSource.xml",
-        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
-        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
-        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
-        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
-        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
-        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Diagnostics.EventLog/6.0.0": {
@@ -18223,25 +17061,21 @@
         "system.reflection.primitives.nuspec"
       ]
     },
-    "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+    "System.Reflection.TypeExtensions/4.3.0": {
+      "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "type": "package",
-      "path": "system.reflection.typeextensions/4.4.0",
+      "path": "system.reflection.typeextensions/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.Reflection.TypeExtensions.dll",
-        "lib/net461/System.Reflection.TypeExtensions.dll",
+        "lib/net462/System.Reflection.TypeExtensions.dll",
         "lib/netcore50/System.Reflection.TypeExtensions.dll",
-        "lib/netcoreapp1.0/System.Reflection.TypeExtensions.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.3/System.Reflection.TypeExtensions.dll",
         "lib/netstandard1.5/System.Reflection.TypeExtensions.dll",
-        "lib/netstandard2.0/System.Reflection.TypeExtensions.dll",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
@@ -18249,9 +17083,7 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net46/System.Reflection.TypeExtensions.dll",
-        "ref/net461/System.Reflection.TypeExtensions.dll",
-        "ref/net461/System.Reflection.TypeExtensions.xml",
-        "ref/netcoreapp2.0/_._",
+        "ref/net462/System.Reflection.TypeExtensions.dll",
         "ref/netstandard1.3/System.Reflection.TypeExtensions.dll",
         "ref/netstandard1.3/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.3/de/System.Reflection.TypeExtensions.xml",
@@ -18274,17 +17106,13 @@
         "ref/netstandard1.5/ru/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.5/zh-hans/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.5/zh-hant/System.Reflection.TypeExtensions.xml",
-        "ref/netstandard2.0/System.Reflection.TypeExtensions.dll",
-        "ref/netstandard2.0/System.Reflection.TypeExtensions.xml",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
-        "system.reflection.typeextensions.4.4.0.nupkg.sha512",
-        "system.reflection.typeextensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "system.reflection.typeextensions.4.3.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
@@ -20256,30 +19084,29 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "System.Threading.Tasks.Dataflow/5.0.0": {
-      "sha512": "NBp0zSAMZp4muDje6XmbDfmkqw9+qsDCHp+YMEtnVgHEjQZ3Q7MzFTTp3eHqpExn4BwMrS7JkUVOTcVchig4Sw==",
+    "System.Threading.Tasks.Dataflow/6.0.0": {
+      "sha512": "+tyDCU3/B1lDdOOAJywHQoFwyXIUghIaP2BxG79uvhfTnO+D9qIgjVlL/JV2NTliYbMHpd6eKDmHp2VHpij7MA==",
       "type": "package",
-      "path": "system.threading.tasks.dataflow/5.0.0",
+      "path": "system.threading.tasks.dataflow/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Threading.Tasks.Dataflow.targets",
+        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Threading.Tasks.Dataflow.dll",
         "lib/net461/System.Threading.Tasks.Dataflow.xml",
-        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.dll",
-        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.xml",
-        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll",
-        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.xml",
+        "lib/net6.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/net6.0/System.Threading.Tasks.Dataflow.xml",
         "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
         "lib/netstandard2.0/System.Threading.Tasks.Dataflow.xml",
-        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
-        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.xml",
-        "system.threading.tasks.dataflow.5.0.0.nupkg.sha512",
+        "lib/netstandard2.1/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard2.1/System.Threading.Tasks.Dataflow.xml",
+        "system.threading.tasks.dataflow.6.0.0.nupkg.sha512",
         "system.threading.tasks.dataflow.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
@@ -20708,10 +19535,10 @@
         "uipath.activities.runtimegovernance.nuspec"
       ]
     },
-    "UiPath.CodedWorkflows/23.10.4": {
-      "sha512": "GjH6NirTcBVt+EZq3l/BUCZhSwsr/SpfEB/0iaGruUyRfckhY2CF9kwsqr5PkjuPrwpebjzSfp4i6VFPutmLJw==",
+    "UiPath.CodedWorkflows/24.10.0": {
+      "sha512": "Ol5pmU38rruyLgjIe+zSgeG5GS07eh45K/1f93Zz/Cvx1rIN0jgo7Cz/kX0BiD94aLXIZkiHJf9VeITrwnNtWg==",
       "type": "package",
-      "path": "uipath.codedworkflows/23.10.4",
+      "path": "uipath.codedworkflows/24.10.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20743,7 +19570,7 @@
         "lib/net6.0/tr/UiPath.CodedWorkflows.resources.dll",
         "lib/net6.0/zh-CN/UiPath.CodedWorkflows.resources.dll",
         "lib/net6.0/zh-TW/UiPath.CodedWorkflows.resources.dll",
-        "uipath.codedworkflows.23.10.4.nupkg.sha512",
+        "uipath.codedworkflows.24.10.0.nupkg.sha512",
         "uipath.codedworkflows.nuspec"
       ]
     },
@@ -20761,10 +19588,10 @@
         "uipath.connectionclient.nuspec"
       ]
     },
-    "UiPath.Excel.Activities/2.23.0-preview": {
-      "sha512": "J6C7UpZcWv/v/uLSO1pjwUvVN1MtOVjKpM2XJ7BCkZGS/Xg5D+OZEJ3qWVj3RsfytMUIdPCOzpsYPO1Xi4FV1Q==",
+    "UiPath.Excel.Activities/2.23.4": {
+      "sha512": "xv5A2lZrHVF75JDnxX8EjlEeAy9cNRdsUAqBjhsyVqPJhbyKxB/xO9fOq5CprwyN9eCp/wC+nfMgptMP6FwwFw==",
       "type": "package",
-      "path": "uipath.excel.activities/2.23.0-preview",
+      "path": "uipath.excel.activities/2.23.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20818,6 +19645,7 @@
         "lib/net6.0-windows7.0/UiPath.Excel.Activities.API.xml",
         "lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll",
         "lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll",
+        "lib/net6.0-windows7.0/UiPath.Excel.Activities.ViewModels.dll",
         "lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
         "lib/net6.0-windows7.0/UiPath.Excel.dll",
         "lib/net6.0-windows7.0/de/UiPath.Excel.Activities.Design.resources.dll",
@@ -20859,6 +19687,7 @@
         "lib/net6.0/UiPath.Excel.Activities.API.dll",
         "lib/net6.0/UiPath.Excel.Activities.API.xml",
         "lib/net6.0/UiPath.Excel.Activities.Package.dll",
+        "lib/net6.0/UiPath.Excel.Activities.ViewModels.dll",
         "lib/net6.0/UiPath.Excel.Activities.dll",
         "lib/net6.0/UiPath.Excel.dll",
         "lib/net6.0/de/UiPath.Excel.Activities.resources.dll",
@@ -20885,142 +19714,8 @@
         "lib/net6.0/zh-CN/UiPath.Excel.resources.dll",
         "lib/net6.0/zh-TW/UiPath.Excel.Activities.resources.dll",
         "lib/net6.0/zh-TW/UiPath.Excel.resources.dll",
-        "uipath.excel.activities.2.23.0-preview.nupkg.sha512",
+        "uipath.excel.activities.2.23.4.nupkg.sha512",
         "uipath.excel.activities.nuspec"
-      ]
-    },
-    "UiPath.GSuite.Activities/2.4.3": {
-      "sha512": "rGmIYyYl6T0ukBJC5PiAEOTvcyRblyJfIT82DlKzmJb+DHEcPTdPdR7hD661zc8MXcAWV2YgYzQbKfPomBbMIg==",
-      "type": "package",
-      "path": "uipath.gsuite.activities/2.4.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/UiPath.GSuite.Activities.Design.dll",
-        "lib/net461/UiPath.GSuite.Activities.Design.xml",
-        "lib/net461/UiPath.GSuite.Activities.Package.pdb",
-        "lib/net461/UiPath.GSuite.Activities.dll",
-        "lib/net461/UiPath.GSuite.Activities.xml",
-        "lib/net461/UiPath.GSuite.dll",
-        "lib/net461/UiPath.GSuite.xml",
-        "lib/net461/de/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/de/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/de/UiPath.GSuite.resources.dll",
-        "lib/net461/es-MX/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/es-MX/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/es-MX/UiPath.GSuite.resources.dll",
-        "lib/net461/es/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/es/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/es/UiPath.GSuite.resources.dll",
-        "lib/net461/fr/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/fr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/fr/UiPath.GSuite.resources.dll",
-        "lib/net461/ja/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/ja/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/ja/UiPath.GSuite.resources.dll",
-        "lib/net461/ko/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/ko/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/ko/UiPath.GSuite.resources.dll",
-        "lib/net461/pt-BR/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/pt-BR/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/pt-BR/UiPath.GSuite.resources.dll",
-        "lib/net461/pt/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/pt/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/pt/UiPath.GSuite.resources.dll",
-        "lib/net461/ru/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/ru/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/ru/UiPath.GSuite.resources.dll",
-        "lib/net461/tr/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/tr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/tr/UiPath.GSuite.resources.dll",
-        "lib/net461/zh-CN/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/zh-CN/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/zh-CN/UiPath.GSuite.resources.dll",
-        "lib/net461/zh-TW/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/zh-TW/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/zh-TW/UiPath.GSuite.resources.dll",
-        "lib/net461/zu/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net461/zu/UiPath.GSuite.Activities.resources.dll",
-        "lib/net461/zu/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.dll",
-        "lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.xml",
-        "lib/net6.0-windows7.0/UiPath.GSuite.Activities.Package.pdb",
-        "lib/net6.0-windows7.0/UiPath.GSuite.Activities.dll",
-        "lib/net6.0-windows7.0/UiPath.GSuite.Activities.xml",
-        "lib/net6.0-windows7.0/UiPath.GSuite.dll",
-        "lib/net6.0-windows7.0/UiPath.GSuite.xml",
-        "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/de/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/de/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/es-MX/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/es/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/es/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/fr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/fr/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/ja/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/ja/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/ko/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/ko/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/pt-BR/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/pt/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/pt/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/ru/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/ru/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/tr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/tr/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/zh-CN/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/zh-TW/UiPath.GSuite.resources.dll",
-        "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.Design.resources.dll",
-        "lib/net6.0-windows7.0/zu/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0-windows7.0/zu/UiPath.GSuite.resources.dll",
-        "lib/net6.0/UiPath.GSuite.Activities.Package.pdb",
-        "lib/net6.0/UiPath.GSuite.Activities.dll",
-        "lib/net6.0/UiPath.GSuite.Activities.xml",
-        "lib/net6.0/UiPath.GSuite.dll",
-        "lib/net6.0/UiPath.GSuite.xml",
-        "lib/net6.0/de/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/de/UiPath.GSuite.resources.dll",
-        "lib/net6.0/es-MX/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/es-MX/UiPath.GSuite.resources.dll",
-        "lib/net6.0/es/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/es/UiPath.GSuite.resources.dll",
-        "lib/net6.0/fr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/fr/UiPath.GSuite.resources.dll",
-        "lib/net6.0/ja/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/ja/UiPath.GSuite.resources.dll",
-        "lib/net6.0/ko/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/ko/UiPath.GSuite.resources.dll",
-        "lib/net6.0/pt-BR/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/pt-BR/UiPath.GSuite.resources.dll",
-        "lib/net6.0/pt/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/pt/UiPath.GSuite.resources.dll",
-        "lib/net6.0/ru/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/ru/UiPath.GSuite.resources.dll",
-        "lib/net6.0/tr/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/tr/UiPath.GSuite.resources.dll",
-        "lib/net6.0/zh-CN/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/zh-CN/UiPath.GSuite.resources.dll",
-        "lib/net6.0/zh-TW/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/zh-TW/UiPath.GSuite.resources.dll",
-        "lib/net6.0/zu/UiPath.GSuite.Activities.resources.dll",
-        "lib/net6.0/zu/UiPath.GSuite.resources.dll",
-        "uipath.gsuite.activities.2.4.3.nupkg.sha512",
-        "uipath.gsuite.activities.nuspec"
       ]
     },
     "UiPath.ImageProcessing/23.4.0": {
@@ -21516,10 +20211,24 @@
         "uipath.ocr.contracts.nuspec"
       ]
     },
-    "UiPath.Platform/23.10.0": {
-      "sha512": "9tweZGj1eN51+N8e7rEz4S5FHqZ7P2HuFP9YzqGcj7sRBD8JK9z0g56QqsBeorWgeVVz/vNpiLRWZpzejsX8nA==",
+    "UiPath.OpenTelemetry.Contracts/2.1.3": {
+      "sha512": "jK3dSVWZbdVBHBjh/S8yJ3v0OwMXxnceG9WaSMyhVM7MrCkc7LbatnAZSsJmxnJrsmAiZsdYHPl7DTMVinmPeg==",
       "type": "package",
-      "path": "uipath.platform/23.10.0",
+      "path": "uipath.opentelemetry.contracts/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "UI_icon.png",
+        "lib/net461/UiPath.OpenTelemetry.Contracts.dll",
+        "lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
+        "uipath.opentelemetry.contracts.2.1.3.nupkg.sha512",
+        "uipath.opentelemetry.contracts.nuspec"
+      ]
+    },
+    "UiPath.Platform/24.10.3": {
+      "sha512": "IpvuIPS7ZMQUp03mSYq9LzLFDXPyVo2TSEds0DTHGAtNtAmKJzGEfEOa4uPeF8CqwKRT/3P/VuoLUJK6rM1ryw==",
+      "type": "package",
+      "path": "uipath.platform/24.10.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21562,14 +20271,14 @@
         "lib/net6.0/ru/UiPath.Platform.resources.dll",
         "lib/net6.0/tr/UiPath.Platform.resources.dll",
         "lib/net6.0/zh-CN/UiPath.Platform.resources.dll",
-        "uipath.platform.23.10.0.nupkg.sha512",
+        "uipath.platform.24.10.3.nupkg.sha512",
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.System.Activities/23.12.0-preview": {
-      "sha512": "mh2x63IQucdGUII+q6kXH0Ioto89HkE9f65Iic6Y7ROJkrlj+jK/bvvKcf6RjBM/RMti6lJ8Kf0YOVbg1B08yQ==",
+    "UiPath.System.Activities/24.10.4": {
+      "sha512": "7MQmx5+F98nA6IeWe2Y2uXNd0tMFyiHJFsmPViRKt9u2/um5Xuh7q69dilppM+tCzh7IxXRIrnzr30xsLJl3Og==",
       "type": "package",
-      "path": "uipath.system.activities/23.12.0-preview",
+      "path": "uipath.system.activities/24.10.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21604,28 +20313,28 @@
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0/UiPath.System.Activities.ViewModels.dll",
-        "uipath.system.activities.23.12.0-preview.nupkg.sha512",
+        "uipath.system.activities.24.10.4.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.System.Activities.Runtime/23.12.0-preview": {
-      "sha512": "GTLiMw2Eg4XtNu8tEJiueJqhOLoRM48dRU0p7GND5EOhZwsm4egsWabQ2i5WQagVvH9w2X2P8UVGsOlgrWSyXA==",
+    "UiPath.System.Activities.Runtime/24.10.4": {
+      "sha512": "SWNQLyVGyoUIVp0fXQ1Q8xztS4lOHYxFDGGg1RlrWq8wvR2KQtOZwJ9BBN3hVpq3djz3aW8boph6EHcBoYOU8A==",
       "type": "package",
-      "path": "uipath.system.activities.runtime/23.12.0-preview",
+      "path": "uipath.system.activities.runtime/24.10.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.System.Activities.Package.Runtime.dll",
         "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
         "lib/net6.0/UiPath.System.Activities.Package.Runtime.dll",
-        "uipath.system.activities.runtime.23.12.0-preview.nupkg.sha512",
+        "uipath.system.activities.runtime.24.10.4.nupkg.sha512",
         "uipath.system.activities.runtime.nuspec"
       ]
     },
-    "UiPath.System.Activities.Runtime.Windows/23.12.0-preview": {
-      "sha512": "RaRQRRnIpkg4VqSKr6EMExmFBq573UWxzMXlGPphp631Ma5N9+YKBQV303Z2QuVJ+Ai7NfocS//8q3I0YGhQkQ==",
+    "UiPath.System.Activities.Runtime.Windows/24.10.4": {
+      "sha512": "XMRjAnd4j2P7rOFCkfmPmyuh00GL4oZVU7qu2POGtxcAZH8R8rWSqHc2LDenY27MdLZOQUEKRSI+3hj0ZpzcMw==",
       "type": "package",
-      "path": "uipath.system.activities.runtime.windows/23.12.0-preview",
+      "path": "uipath.system.activities.runtime.windows/24.10.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21661,21 +20370,21 @@
         "lib/net6.0-windows7.0/zh-CN/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.runtime.windows.23.12.0-preview.nupkg.sha512",
+        "uipath.system.activities.runtime.windows.24.10.4.nupkg.sha512",
         "uipath.system.activities.runtime.windows.nuspec"
       ]
     },
-    "UiPath.Telemetry.Client/1.6.69": {
-      "sha512": "WVZS1Uo7WVXOacqE1RXcrbvYhpYOzw+6QYfyEvGpTHm3hQe658DSCMK6Pk/Fxfp6nLq26okg1kd0/ycBfhf3sw==",
+    "UiPath.Telemetry.Client/2.1.3": {
+      "sha512": "J8P+1wLcXXwuBWtFEdzFxnSWDVTH/6plaGloTO0VaOAWDa3C4uMddB8OEpFH4ixM86JlYdg0hRw4m3aHzVZeIA==",
       "type": "package",
-      "path": "uipath.telemetry.client/1.6.69",
+      "path": "uipath.telemetry.client/2.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "UI_icon.png",
         "lib/net461/TelemetryClient.dll",
         "lib/netstandard2.0/TelemetryClient.dll",
-        "uipath.telemetry.client.1.6.69.nupkg.sha512",
+        "uipath.telemetry.client.2.1.3.nupkg.sha512",
         "uipath.telemetry.client.nuspec"
       ]
     },
@@ -22590,73 +21299,10 @@
         "uipath.webapi.runtime.nuspec"
       ]
     },
-    "VPS-OR2.Descriptors/1.0.4": {
-      "sha512": "vqPNLo1QzndIi5QLrOV//4i2FaD+YOMBaG7QLIUX5tZyh+2CiNu3QYGaTWhIa8L/nnEqfaQakLA0USUmV6gYVw==",
+    "VPSLibrary/1.0.159": {
+      "sha512": "ssLFvna0OM/G/HHUQaLcvXRu6GK2J0m2X/uUATIKbD+Jl9A8OuUJyFNj9ANMnbWuOCFWQqrzk55lsRhb8dNLlw==",
       "type": "package",
-      "path": "vps-or2.descriptors/1.0.4",
-      "files": [
-        ".nupkg.metadata",
-        "content/.project/PackageBindingsMetadata.json",
-        "content/.project/design.json",
-        "content/.settings/Design/settings-5190454b.json",
-        "content/.settings/Design/settings-a1b2dac1.json",
-        "content/.settings/Release/settings-1a5b880a.json",
-        "content/.settings/Release/settings-5190454b.json",
-        "content/.settings/Release/settings-590bb27b.json",
-        "content/.settings/Release/settings-9e9290da.json",
-        "content/.settings/Release/settings-a1b2dac1.json",
-        "content/VPS-OR2.Descriptors.1.0.1.nupkg",
-        "content/VPS-OR2.Descriptors.1.0.2.nupkg",
-        "content/VPS-OR2.Descriptors.1.0.3.nupkg",
-        "content/bindings.json",
-        "content/bindings_v2.json",
-        "content/project.json",
-        "contentFiles/any/any/.objects/.metadata",
-        "contentFiles/any/any/.objects/.type",
-        "contentFiles/any/any/.objects/p0Mx/.data/ObjectSelectionName/.content",
-        "contentFiles/any/any/.objects/p0Mx/.data/ObjectSelectionName/.hash",
-        "contentFiles/any/any/.objects/p0Mx/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.data/ObjectRepositoryScreenData/.content",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.data/ObjectRepositoryScreenData/.hash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.data/ObjectRepositoryScreenData/.images/.design/0p9TbaWBTYEykf-pP44PmeQ",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.data/ObjectRepositoryTargetData/.content",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.data/ObjectRepositoryTargetData/.hash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.data/ObjectRepositoryTargetData/.images/.design/0-9dHOAaicEuJSsHylj_7UQ",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/TnMA/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.data/ObjectRepositoryTargetData/.content",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.data/ObjectRepositoryTargetData/.hash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.data/ObjectRepositoryTargetData/.images/.design/0pLQeupN-akOs7gvijWCqEw",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/rhoS/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.data/ObjectRepositoryTargetData/.content",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.data/ObjectRepositoryTargetData/.hash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.data/ObjectRepositoryTargetData/.images/.design/0f33o47sDGU658lsSpGrthA",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/tZuU/.type",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.data/ObjectRepositoryTargetData/.content",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.data/ObjectRepositoryTargetData/.hash",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.data/ObjectRepositoryTargetData/.images/.design/0b0ZPeO3cgUCkNnqAtsJlNg",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.metadata",
-        "contentFiles/any/any/.objects/p0Mx/LdFU/uAHf/wtrO/.type",
-        "vps-or2.descriptors.1.0.4.nupkg.sha512",
-        "vps-or2.descriptors.nuspec"
-      ]
-    },
-    "VPSLibrary/1.0.72": {
-      "sha512": "ylh5zmkW0+1M0N9ek9gv88BCv31RtDM8UQgT8NM9/iWfUK9io890ToVLL/daUpSrkyHnjfMX8L7VD7x+z7sMew==",
-      "type": "package",
-      "path": "vpslibrary/1.0.72",
+      "path": "vpslibrary/1.0.159",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -22701,15 +21347,23 @@
         "content/NavigationFunctions/SelectKeyboardEntryLink.xaml.json",
         "content/NavigationFunctions/SelectSaleLink.xaml",
         "content/NavigationFunctions/SelectSaleLink.xaml.json",
-        "content/NewActivity.xaml",
         "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml",
         "content/SetDataFunctions/SetDataSaleKeypadEntry.xaml.json",
         "content/SetDataFunctions/TestExcelAccNum-Library.xaml",
         "content/SetDataFunctions/TestExcelAccNum-Library.xaml.json",
+        "content/SetDataFunctionsABP/SetDataLookup.xaml",
+        "content/SetDataFunctionsABP/SetDataLookup.xaml.json",
+        "content/SetDataFunctionsABP/SetDataPaymentEntry.xaml",
+        "content/SetDataFunctionsABP/SetDataPaymentEntry.xaml.json",
+        "content/SetDataFunctionsABP/SetDataPreviewPage.xaml",
+        "content/SetDataFunctionsABP/SetDataPreviewPage.xaml.json",
         "content/TestData/AccountNumbers - Copy.xlsx",
         "content/TestData/AccountNumbers.xlsx",
+        "content/TestData/GuestPaymentData.xlsx",
         "content/TestData/Test1.xlsx",
         "content/TestData/VT-CC-Transactions2.xlsx",
+        "content/VerificationFunctions/VerifyText.xaml",
+        "content/VerificationFunctions/VerifyText.xaml.json",
         "content/bindings.json",
         "content/bindings_v2.json",
         "content/project.json",
@@ -22793,6 +21447,180 @@
         "contentFiles/any/any/.objects/ReKY/1t3L/miRy/DBvk/.data/ObjectRepositoryTargetData/.images/.design/0DMB3Tom_2kC_41xbfm-w5w",
         "contentFiles/any/any/.objects/ReKY/1t3L/miRy/DBvk/.metadata",
         "contentFiles/any/any/.objects/ReKY/1t3L/miRy/DBvk/.type",
+        "contentFiles/any/any/.objects/TFn3/.data/ObjectSelectionName/.content",
+        "contentFiles/any/any/.objects/TFn3/.data/ObjectSelectionName/.hash",
+        "contentFiles/any/any/.objects/TFn3/.metadata",
+        "contentFiles/any/any/.objects/TFn3/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.data/ObjectRepositoryScreenData/.images/.design/0qnw0-trPG0GUsK-ahR7ppw",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.data/ObjectRepositoryTargetData/.images/.design/0p2ioljK7tEaZcwrs3cUI-A",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/Nu4_/Hd7q/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.data/ObjectRepositoryTargetData/.images/.design/0TROsmv6wlE2V5Z9XJD5uxw",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/awYn/Btl4/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.data/ObjectRepositoryTargetData/.images/.design/07uVj39gJbkWK-sYsp3cZOg",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/baOP/ZaxQ/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.data/ObjectRepositoryTargetData/.images/.design/0YRlOAz7JMUS5R7VKu20KVg",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/d4Lr/ijLD/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.data/ObjectRepositoryTargetData/.images/.design/0ZRShHrM7zU-gQ_1xhEmaMw",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/8zaZ/grsl/Cidk/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.data/ObjectRepositoryScreenData/.images/.design/0FmVIsnX9aE6O__yGAOlmtQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.data/ObjectRepositoryTargetData/.images/.design/0H-5kAQ3paUqkq0mYxrYNlQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/ASIC/naeC/Llr4/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.data/ObjectRepositoryScreenData/.images/.design/0EXjE6zzRb0q-Vi3BDIRaFQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/XSR8/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.data/ObjectRepositoryScreenData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.data/ObjectRepositoryScreenData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.data/ObjectRepositoryScreenData/.images/.design/00XTpCb5I_0yAVK0YnZ4u2g",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.data/ObjectRepositoryTargetData/.images/.design/0M7MIniBWWk2mixJ68WXC6g",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/DkH2/Zr8Y/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.data/ObjectRepositoryTargetData/.images/.design/0GrrXwEsoI0qHlYIfCtBQjw",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/HbXb/RluO/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.data/ObjectRepositoryTargetData/.images/.design/0JOqw2hRaO0SgDWmxMEUmWQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/JQON/D3fd/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.data/ObjectRepositoryTargetData/.images/.design/08gM-pyNyhEq87cSPcim-fg",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/Mr1m/ZVmc/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.data/ObjectRepositoryTargetData/.images/.design/0c7n6DDmQ4UWzF4BHF-Mjfw",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/UqNx/_Ky8/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.data/ObjectRepositoryTargetData/.images/.design/0Lg1NhhlYoU2b_9pAXljoeQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cUGW/GKtY/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.data/ObjectRepositoryTargetData/.images/.design/0A1dXaaWXdkCzElWBCTcjlQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/cgL-/eau8/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.data/ObjectRepositoryTargetData/.images/.design/0YzDQ06fF60KJiqi3dvmIMg",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/dfAP/tuVS/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.data/ObjectRepositoryTargetData/.images/.design/0YHDcyKdw4U2lH1Ps8BbPVQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/mDQy/50bk/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.data/ObjectRepositoryTargetData/.images/.design/0s-NjLsSGMUuTZae7CoUbYA",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/sDxE/BlPK/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.data/ObjectRepositoryTargetData/.images/.design/06LUQGhCR5EK71-0uSBaPGQ",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/uIlU/HZ2v/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/.type",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.data/ObjectRepositoryTargetData/.images/.design/0A-qEnyTJCUOgl6O9EGR_4Q",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.metadata",
+        "contentFiles/any/any/.objects/TFn3/roFM/YLQn/ygyJ/Seuw/.type",
         "contentFiles/any/any/.objects/cJt4/.data/ObjectSelectionName/.content",
         "contentFiles/any/any/.objects/cJt4/.data/ObjectSelectionName/.hash",
         "contentFiles/any/any/.objects/cJt4/.metadata",
@@ -23038,7 +21866,7 @@
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.data/ObjectRepositoryScreenData/.attributes/SearchHash",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.data/ObjectRepositoryScreenData/.content",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.data/ObjectRepositoryScreenData/.hash",
-        "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.data/ObjectRepositoryScreenData/.images/.design/08uU7U8q8GUSSXqDX02PKfQ",
+        "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.data/ObjectRepositoryScreenData/.images/.design/0qx230Q2fDEqJ3qHPhWO0uQ",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.metadata",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/.type",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
@@ -23048,25 +21876,28 @@
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.metadata",
         "contentFiles/any/any/.objects/vwJl/sWG8/QJ67/uTxx/.type",
         "lib/net8.0-windows7.0/VPSLibrary.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_11653880.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_12466274.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_13704464.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_14000148.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_25584554.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_27599521.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_30207987.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_31237302.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_32101292.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_42941919.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_44956049.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_49794252.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_5568223.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_57756343.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_59705626.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_62265144.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_7195155.dll",
-        "lib/net8.0-windows7.0/VPSLibrary_Expressions_9426669.dll",
-        "vpslibrary.1.0.72.nupkg.sha512",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_1580455.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_16234134.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_19402817.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_34788144.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_37209222.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_41026419.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_42057031.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_4300233.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_43014496.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_46748651.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_47546512.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_52215297.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_52406342.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_54017281.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_55786688.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_57557655.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_59666258.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_63385262.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_66184201.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_7832273.dll",
+        "lib/net8.0-windows7.0/VPSLibrary_Expressions_9341730.dll",
+        "vpslibrary.1.0.159.nupkg.sha512",
         "vpslibrary.nuspec"
       ]
     }
@@ -23074,26 +21905,24 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
-      "UiPath.Excel.Activities >= 2.23.0-preview <= 2.23.0-preview",
-      "UiPath.GSuite.Activities >= 2.4.3 <= 2.4.3",
+      "UiPath.Excel.Activities >= 2.23.4 <= 2.23.4",
       "UiPath.MicrosoftOffice365.Activities >= 2.4.3 <= 2.4.3",
-      "UiPath.System.Activities >= 23.12.0-preview <= 23.12.0-preview",
+      "UiPath.System.Activities >= 24.10.4 <= 24.10.4",
       "UiPath.Testing.Activities >= 23.10.1 <= 23.10.1",
-      "UiPath.UIAutomation.Activities >= 23.10.8 <= 23.10.8",
       "UiPath.WebAPI.Activities >= 1.18.0 <= 1.18.0",
-      "VPSLibrary >= 1.0.72 <= 1.0.72"
+      "VPSLibrary >= 1.0.159 <= 1.0.159"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\imtiaz\\.nuget\\packages\\": {}
+    "C:\\Users\\91720\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "VPSAutomation",
       "projectName": "VPSAutomation",
-      "projectPath": "E:\\UIPath\\VPSAutomation\\.local",
-      "packagesPath": "C:\\Users\\imtiaz\\.nuget\\packages\\",
-      "outputPath": "E:\\UIPath\\VPSAutomation\\.local"
+      "projectPath": "C:\\Users\\91720\\Documents\\UI_Path_github\\uipathVPSAutomation\\.local",
+      "packagesPath": "C:\\Users\\91720\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\91720\\Documents\\UI_Path_github\\uipathVPSAutomation\\.local"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -23101,12 +21930,7 @@
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.23.0-preview, 2.23.0-preview]"
-          },
-          "UiPath.GSuite.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[2.4.3, 2.4.3]"
+            "version": "[2.23.4, 2.23.4]"
           },
           "UiPath.MicrosoftOffice365.Activities": {
             "include": "Runtime",
@@ -23116,17 +21940,12 @@
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[23.12.0-preview, 23.12.0-preview]"
+            "version": "[24.10.4, 24.10.4]"
           },
           "UiPath.Testing.Activities": {
             "include": "Runtime",
             "target": "Package",
             "version": "[23.10.1, 23.10.1]"
-          },
-          "UiPath.UIAutomation.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[23.10.8, 23.10.8]"
           },
           "UiPath.WebAPI.Activities": {
             "include": "Runtime",
@@ -23136,10 +21955,10 @@
           "VPSLibrary": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.72, 1.0.72]"
+            "version": "[1.0.159, 1.0.159]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\imtiaz\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\91720\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -23147,5 +21966,25 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\91720\\Documents\\My Music' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\91720\\Documents\\My Pictures' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\91720\\Documents\\My Videos' is denied."
+    }
+  ]
 }

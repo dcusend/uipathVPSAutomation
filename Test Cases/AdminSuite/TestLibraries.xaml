@@ -70,7 +70,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
       <AssemblyReference>VPSLibrary</AssemblyReference>
-      <AssemblyReference>VPSLibrary_Expressions_12466274</AssemblyReference>
+      <AssemblyReference>VPSLibrary_Expressions_37694525</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="496,323" sap2010:WorkflowViewState.IdRef="Sequence_1">
