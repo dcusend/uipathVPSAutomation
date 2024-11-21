@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>694,4305.333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>696.6666666666666,4686.666666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Test_ABP_Chrome_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -130,7 +130,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Test_ABP_Chrome" sap:VirtualizedContainerService.HintSize="704,4240.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Test_ABP_Chrome" sap:VirtualizedContainerService.HintSize="706.6666666666666,4622" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="readDT" />
     </Sequence.Variables>
@@ -139,23 +139,34 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="642,168.66666666666666" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[readDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="642,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="TestData\GuestPaymentData.xlsx" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[readDT]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="642,3864" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="644.6666666666666,359.3333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,247.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="354,159.33333333333334" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[readDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="644.6666666666666,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="TestData\GuestPaymentData.xlsx" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[readDT]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="644.6666666666666,4054.6666666666665" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,3673.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="610.6666666666666,3864" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[CurrentRow(&quot;Execute&quot;).Equals(&quot;Y&quot;)]" sap:VirtualizedContainerService.HintSize="546,3585.3333333333335" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[CurrentRow(&quot;Execute&quot;).Equals(&quot;Y&quot;)]" sap:VirtualizedContainerService.HintSize="548.6666666666666,3776" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,3318" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="514.6666666666666,3508.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Int32" Name="length_vp1" />
                     <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -165,10 +176,10 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <vs:SetDataLookup sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="SetDataLookup_2" billType="[CurrentRow(&quot;BillType&quot;).toString()]" lookup1="[CurrentRow(&quot;Lookup1&quot;).toString()]" lookup2="[CurrentRow(&quot;Lookup2&quot;).toString()]" lookup3="[CurrentRow(&quot;Lookup3&quot;).toString()]" />
-                  <vs:SetDataPaymentEntry sap:VirtualizedContainerService.HintSize="450,598" sap2010:WorkflowViewState.IdRef="SetDataPaymentEntry_1" al1="[CurrentRow(&quot;AL1&quot;).ToString()]" amountToPay="[CurrentRow(&quot;AmountToPay&quot;).ToString()]" cardNumber="[CurrentRow(&quot;CardNumber&quot;).ToString()]" cvv="[CurrentRow(&quot;CVV&quot;).ToString()]" expMM="[CurrentRow(&quot;ExpMM&quot;).ToString()]" expYYYY="[CurrentRow(&quot;ExpYYYY&quot;).ToString()]" inBrowserType="chrome" nameOnCard="[CurrentRow(&quot;NameOnCard&quot;).ToString()]" paymentType="[CurrentRow(&quot;PaymentType&quot;).ToString()]" zip="[CurrentRow(&quot;ZIP&quot;).ToString()]" />
-                  <vs:SetDataPreviewPage sap:VirtualizedContainerService.HintSize="450,124" sap2010:WorkflowViewState.IdRef="SetDataPreviewPage_1" inBrowserType="chrome" />
-                  <If Condition="[Not CurrentRow(&quot;VP1&quot;).toString().Length.Equals(0)]" sap:VirtualizedContainerService.HintSize="450,637.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
+                  <vs:SetDataLookup sap:VirtualizedContainerService.HintSize="452.6666666666667,282" sap2010:WorkflowViewState.IdRef="SetDataLookup_2" billType="[CurrentRow(&quot;BillType&quot;).toString()]" lookup1="[CurrentRow(&quot;Lookup1&quot;).toString()]" lookup2="[CurrentRow(&quot;Lookup2&quot;).toString()]" lookup3="[CurrentRow(&quot;Lookup3&quot;).toString()]" />
+                  <vs:SetDataPaymentEntry sap:VirtualizedContainerService.HintSize="452.6666666666667,598" sap2010:WorkflowViewState.IdRef="SetDataPaymentEntry_1" al1="[CurrentRow(&quot;AL1&quot;).ToString()]" amountToPay="[CurrentRow(&quot;AmountToPay&quot;).ToString()]" cardNumber="[CurrentRow(&quot;CardNumber&quot;).ToString()]" cvv="[CurrentRow(&quot;CVV&quot;).ToString()]" expMM="[CurrentRow(&quot;ExpMM&quot;).ToString()]" expYYYY="[CurrentRow(&quot;ExpYYYY&quot;).ToString()]" inBrowserType="chrome" nameOnCard="[CurrentRow(&quot;NameOnCard&quot;).ToString()]" paymentType="[CurrentRow(&quot;PaymentType&quot;).ToString()]" zip="[CurrentRow(&quot;ZIP&quot;).ToString()]" />
+                  <vs:SetDataPreviewPage sap:VirtualizedContainerService.HintSize="452.6666666666667,124" sap2010:WorkflowViewState.IdRef="SetDataPreviewPage_1" inBrowserType="chrome" />
+                  <If Condition="[Not CurrentRow(&quot;VP1&quot;).toString().Length.Equals(0)]" sap:VirtualizedContainerService.HintSize="452.6666666666667,637.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
                     <If.Then>
                       <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,360.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
                         <sap:WorkflowViewStateService.ViewState>
@@ -189,7 +200,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <If Condition="[Not CurrentRow(&quot;VP2&quot;).toString().Length.Equals(0)]" sap:VirtualizedContainerService.HintSize="450,637.3333333333334" sap2010:WorkflowViewState.IdRef="If_3">
+                  <If Condition="[Not CurrentRow(&quot;VP2&quot;).toString().Length.Equals(0)]" sap:VirtualizedContainerService.HintSize="452.6666666666667,637.3333333333334" sap2010:WorkflowViewState.IdRef="If_3">
                     <If.Then>
                       <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,360.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
                         <sap:WorkflowViewStateService.ViewState>
@@ -210,7 +221,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <ui:IfElseIfV2 Condition="[save_output]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="450,673.3333333333334" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                  <ui:IfElseIfV2 Condition="[save_output]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="452.6666666666667,673.3333333333334" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                     <ui:IfElseIfV2.Else>
                       <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
@@ -235,8 +246,19 @@
                       </Sequence>
                     </ui:IfElseIfV2.Then>
                   </ui:IfElseIfV2>
-                  <ui:WriteCell Cell="[&quot;B&quot; +(ReadDT.Rows.IndexOf(CurrentRow)+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="450,148" sap2010:WorkflowViewState.IdRef="WriteCell_4" SheetName="Sheet1" Text="[Now().tostring()]" WorkbookPath="TestData\GuestPaymentData.xlsx" />
-                  <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe Payment'" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="2247a6b561747cb1a44f2e4950fd14b7" Selector="&lt;html app='chrome.exe' /&gt;" WaitForReady="INTERACTIVE" />
+                  <ui:WriteCell Cell="[&quot;B&quot; +(ReadDT.Rows.IndexOf(CurrentRow)+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="452.6666666666667,148" sap2010:WorkflowViewState.IdRef="WriteCell_4" SheetName="Sheet1" Text="[Now().tostring()]" WorkbookPath="TestData\GuestPaymentData.xlsx" />
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452.6666666666667,320.6666666666667" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe Payment'" sap:VirtualizedContainerService.HintSize="354,130" sap2010:WorkflowViewState.IdRef="CloseWindow_2" InformativeScreenshot="2247a6b561747cb1a44f2e4950fd14b7" Selector="&lt;html app='chrome.exe' /&gt;" WaitForReady="INTERACTIVE" />
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                  </ui:CommentOut>
                 </Sequence>
               </If.Then>
               <If.Else>

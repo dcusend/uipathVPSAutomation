@@ -274,12 +274,13 @@
       "Path": "Test Cases for Training/GuestPay Successfull Payment CC.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "outputtextfound&Sequence_1",
+        "length_vp1&Sequence_3",
+        "variable1&Sequence_3",
         "readDT&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
-        "outputResult",
-        "argument1"
+        "textFound",
+        "save_output"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

@@ -212,7 +212,7 @@
     {
       "Package": {
         "Id": "VPSLibrary",
-        "Version": "1.0.159"
+        "Version": "1.0.167"
       },
       "Assemblies": [
         "C:\\Users\\91720\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
@@ -345,30 +345,30 @@
         "C:\\Users\\91720\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\91720\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\91720\\.nuget\\packages\\uipath.vision\\3.11.1\\lib/net6.0-windows7.0/UiPath.Vision.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_1580455.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_16234134.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_19402817.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_34788144.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_37209222.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_41026419.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_42057031.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_4300233.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_43014496.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_46748651.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_47546512.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_52215297.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_52406342.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_54017281.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_55786688.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_57557655.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_59666258.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_63385262.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_66184201.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_7832273.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib/net8.0-windows7.0/VPSLibrary_Expressions_9341730.dll"
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_10667904.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_12405906.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_14235609.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_21466776.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_23934945.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_24483818.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_32490413.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_35179474.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_37054426.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_43901109.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_44801238.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_45053718.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_46666764.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_49454668.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_54068531.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_56524839.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_58872078.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_61037227.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_63533638.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_66260603.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib/net8.0-windows7.0/VPSLibrary_Expressions_7511374.dll"
       ],
-      "Path": "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159"
+      "Path": "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167"
     }
   ],
   "Conflicts": [],
@@ -4801,7 +4801,7 @@
     },
     "VPSLibrary": {
       "Id": "VPSLibrary",
-      "Version": "1.0.159",
+      "Version": "1.0.167",
       "Dependencies": [
         {
           "Item1": "UiPath.Excel.Activities",
@@ -7450,33 +7450,33 @@
     {
       "Package": {
         "Id": "VPSLibrary",
-        "Version": "1.0.159"
+        "Version": "1.0.167"
       },
       "Assemblies": [
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_1580455.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_16234134.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_19402817.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_34788144.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_37209222.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_41026419.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_42057031.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_4300233.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_43014496.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_46748651.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_47546512.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_52215297.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_52406342.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_54017281.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_55786688.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_57557655.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_59666258.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_63385262.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_66184201.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_7832273.dll",
-        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_9341730.dll"
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_10667904.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_12405906.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_14235609.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_21466776.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_23934945.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_24483818.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_32490413.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_35179474.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_37054426.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_43901109.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_44801238.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_45053718.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_46666764.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_49454668.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_54068531.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_56524839.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_58872078.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_61037227.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_63533638.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_66260603.dll",
+        "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\lib\\net8.0-windows7.0\\VPSLibrary_Expressions_7511374.dll"
       ],
-      "Path": "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159"
+      "Path": "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167"
     }
   ]
 }

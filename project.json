@@ -9,7 +9,7 @@
     "UiPath.System.Activities": "[24.10.4]",
     "UiPath.Testing.Activities": "[23.10.1]",
     "UiPath.WebAPI.Activities": "[1.18.0]",
-    "VPSLibrary": "[1.0.159]"
+    "VPSLibrary": "[1.0.167]"
   },
   "webServices": [],
   "entitiesStores": [],

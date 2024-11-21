@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7T9yP5bvTBvaxwim4kddsFCzJtBSvMBwFkR+eaQKgAE9RMHW4x+hv1uyRwHcziBP16sK3QqLLdl/cz7IvEABDw==",
+  "dgSpecHash": "zD0xiDwLtBe9MaW/ZrUHC4bMfggFPnn6W/td7PaYARuFjtLeEgf8l531NAqVxA9TjiZJkhDDdQhGjesoWLOq1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\91720\\Documents\\UI_Path_github\\uipathVPSAutomation\\.local\\",
   "expectedPackageFiles": [
@@ -273,7 +273,7 @@
     "C:\\Users\\91720\\.nuget\\packages\\uipath.vision\\3.11.1\\uipath.vision.3.11.1.nupkg.sha512",
     "C:\\Users\\91720\\.nuget\\packages\\uipath.webapi.activities\\1.18.0\\uipath.webapi.activities.1.18.0.nupkg.sha512",
     "C:\\Users\\91720\\.nuget\\packages\\uipath.webapi.runtime\\1.18.0\\uipath.webapi.runtime.1.18.0.nupkg.sha512",
-    "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.159\\vpslibrary.1.0.159.nupkg.sha512"
+    "C:\\Users\\91720\\.nuget\\packages\\vpslibrary\\1.0.167\\vpslibrary.1.0.167.nupkg.sha512"
   ],
   "logs": [
     {
